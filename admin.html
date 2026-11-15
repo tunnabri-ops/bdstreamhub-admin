@@ -7,7 +7,7 @@
 <style>
   * { box-sizing: border-box; }
   body { margin: 0; background: #0b0f14; color: #e8eef4; font-family: "Segoe UI", system-ui, Arial, sans-serif; }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 28px 16px 60px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 16px 60px; }
   h1 { font-size: 22px; margin: 0 0 4px; }
   h1 span { color: #22c55e; }
   .sub { color: #93a3b3; font-size: 13px; margin: 0 0 24px; }
@@ -19,6 +19,8 @@
   button { background: #1e293b; color: #e8eef4; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 16px; font-size: 14px; cursor: pointer; }
   button:hover { border-color: #22c55e; }
   button.primary { background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 600; }
+  button.danger { border-color: #7f1d1d; color: #fca5a5; }
+  button.small { padding: 6px 10px; font-size: 12px; }
   button:disabled { opacity: .5; cursor: wait; }
   .status { font-size: 13px; line-height: 1.6; margin: 10px 0 0; word-break: break-all; }
   .status.ok { color: #22c55e; }
@@ -27,15 +29,23 @@
   .current { background: #0b0f14; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 12px; font-family: monospace; font-size: 13px; word-break: break-all; }
   a { color: #22c55e; }
   .hint { color: #93a3b3; font-size: 12px; line-height: 1.6; margin: 10px 0 0; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #232e3a; vertical-align: middle; }
+  th { color: #93a3b3; font-size: 12px; }
+  td .url { font-family: monospace; font-size: 11px; color: #93a3b3; word-break: break-all; }
+  td img { width: 40px; height: 40px; object-fit: contain; background: #0b0f14; border: 1px solid #232e3a; border-radius: 6px; display: block; }
+  .empty { color: #93a3b3; font-size: 13px; margin: 12px 0 0; }
+  .pill { display: inline-block; background: #1e293b; border: 1px solid #232e3a; border-radius: 20px; padding: 2px 10px; font-size: 12px; color: #93a3b3; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>BDStreamHub <span>Admin Panel</span></h1>
-  <p class="sub">Change the playlist link here — every BDStreamHub Desktop exe picks it up on next launch.</p>
+  <p class="sub">Add your own channels — name, logo, stream link (.m3u8) and group — and every BDStreamHub Desktop exe shows them on next launch.</p>
+
   <div class="card">
     <h2>1. GitHub token</h2>
-    <p class="hint">This page saves the link by editing <code>playlist-config.json</code> in the repo. It needs a GitHub token with the <b>repo</b> scope. Create one here: <a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">github.com/settings/tokens/new</a> (classic token, tick <b>repo</b>), then paste it below. The token stays in <b>your browser only</b> — never share it.</p>
+    <p class="hint">Saving writes <code>channels.json</code>, <code>channels.m3u</code> and <code>playlist-config.json</code> in the repo. It needs a GitHub token with the <b>repo</b> scope. Create one here: <a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">github.com/settings/tokens/new</a> (classic token, tick <b>repo</b>), then paste it below. The token stays in <b>your browser only</b> — never share it.</p>
     <label for="token">GitHub Personal Access Token (classic, repo scope)</label>
     <input id="token" type="password" placeholder="ghp_…" autocomplete="off">
     <div class="row">
@@ -44,54 +54,239 @@
     </div>
     <p id="tokenStatus" class="status muted"></p>
   </div>
+
   <div class="card">
-    <h2>2. Current playlist link</h2>
+    <h2>2. My channels <span id="chCount" class="pill">0 channels</span></h2>
+    <div id="chList"></div>
+    <p class="hint">Channels are saved in the repo as <code>channels.m3u</code> — the exe reads that file. Add channels below, then press <b>Save all channels</b>.</p>
+    <div class="row">
+      <button id="reloadChBtn" type="button">Reload saved channels</button>
+      <button id="downloadM3uBtn" type="button">Download .m3u</button>
+      <button id="saveAllBtn" type="button" class="primary">Save all channels for all exes</button>
+    </div>
+    <p id="saveAllStatus" class="status muted"></p>
+  </div>
+
+  <div class="card">
+    <h2 id="formTitle">3. Add a channel</h2>
+    <label for="fName">Channel name</label>
+    <input id="fName" type="text" placeholder="e.g. ATN Bangla" spellcheck="false">
+    <label for="fLogo">Logo / picture link (optional)</label>
+    <input id="fLogo" type="url" placeholder="https://…/logo.png" spellcheck="false">
+    <label for="fUrl">Stream link (.m3u8)</label>
+    <input id="fUrl" type="url" placeholder="https://…/stream.m3u8" spellcheck="false">
+    <label for="fGroup">Group / category (optional)</label>
+    <input id="fGroup" type="text" placeholder="e.g. Bangla, Sports, News" spellcheck="false">
+    <div class="row">
+      <button id="addChBtn" type="button" class="primary">Add channel</button>
+      <button id="testStreamBtn" type="button">Test stream link</button>
+      <button id="cancelEditBtn" type="button" style="display:none">Cancel edit</button>
+    </div>
+    <p id="formStatus" class="status muted"></p>
+    <p class="hint">Test note: some stream servers block browser checks (CORS), so a test can fail here even when the link plays fine in the exe — the exe fetches without that browser limit. If the test fails, try the link in the exe before deleting it.</p>
+  </div>
+
+  <div class="card">
+    <h2>4. Import from a playlist URL (optional)</h2>
+    <p class="hint">Have a full .m3u playlist link? Paste it here to import all its channels into the list above, then edit or delete any of them and save.</p>
+    <label for="importUrl">Playlist URL (.m3u)</label>
+    <input id="importUrl" type="url" placeholder="https://…/playlist.m3u" spellcheck="false">
+    <div class="row">
+      <button id="importBtn" type="button">Import channels</button>
+    </div>
+    <p id="importStatus" class="status muted"></p>
+  </div>
+
+  <div class="card">
+    <h2>5. Use an external playlist instead (optional)</h2>
     <div id="currentLink" class="current">Loading…</div>
     <div class="row">
       <button id="refreshBtn" type="button">Refresh</button>
       <button id="testCurrentBtn" type="button">Test this link</button>
     </div>
     <p id="currentStatus" class="status muted"></p>
-  </div>
-  <div class="card">
-    <h2>3. Change the link</h2>
-    <label for="newUrl">New playlist URL (.m3u)</label>
+    <label for="newUrl">External playlist URL (.m3u)</label>
     <input id="newUrl" type="url" placeholder="https://…/playlist.m3u" spellcheck="false">
     <div class="row">
       <button id="testNewBtn" type="button">Test link</button>
-      <button id="saveLinkBtn" type="button" class="primary">Save link for all exes</button>
+      <button id="saveLinkBtn" type="button" class="primary">Use this playlist for all exes</button>
     </div>
     <p id="saveStatus" class="status muted"></p>
-    <p class="hint">After saving, the exe reads the new link the next time it starts (GitHub's file cache can lag a few minutes). The exe's own Admin panel (password admin123) and its Settings URL still override this remote link on that PC.</p>
+    <p class="hint">Saving an external playlist replaces “My channels” until you save channels again. The exe's own Admin panel (password admin123) and its Settings URL still override this remote link on that PC. After any save, the exe reads the new list the next time it starts (GitHub's file cache can lag a few minutes).</p>
   </div>
 </div>
+
 <script>
 'use strict';
 const OWNER = 'tunnabri-ops';
 const REPO = 'bdstreamhub-admin';
-const FILE = 'playlist-config.json';
-const RAW_URL = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${FILE}`;
-const API_URL = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+const BRANCH = 'main';
+const CHANNELS_JSON = 'channels.json';
+const CHANNELS_M3U = 'channels.m3u';
+const CONFIG_FILE = 'playlist-config.json';
+const RAW = (f) => `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${f}`;
+const API = (f) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${f}`;
 const TOKEN_KEY = 'bds-admin-gh-token';
+const CHANNELS_M3U_URL = RAW(CHANNELS_M3U);
+
 const $ = (id) => document.getElementById(id);
-function setStatus(el, text, kind) {
-  el.textContent = text;
-  el.className = 'status ' + (kind || 'muted');
-}
+function setStatus(el, text, kind) { el.textContent = text; el.className = 'status ' + (kind || 'muted'); }
 function getToken() { return ($('token').value || localStorage.getItem(TOKEN_KEY) || '').trim(); }
 function b64encode(str) {
   const bytes = new TextEncoder().encode(str);
-  let bin = '';
-  bytes.forEach((b) => { bin += String.fromCharCode(b); });
+  let bin = ''; bytes.forEach((b) => { bin += String.fromCharCode(b); });
   return btoa(bin);
+}
+function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+function attr(s) { return String(s == null ? '' : s).replace(/"/g, "'").replace(/[\r\n]/g, ' ').trim(); }
+
+let channels = [];
+let editingIndex = -1;
+
+function renderList() {
+  $('chCount').textContent = channels.length + (channels.length === 1 ? ' channel' : ' channels');
+  const box = $('chList');
+  if (!channels.length) {
+    box.innerHTML = '<p class="empty">No channels yet — add your first channel below, or import a playlist in step 4.</p>';
+    return;
+  }
+  let html = '<table><tr><th></th><th>Channel</th><th>Stream link</th><th></th></tr>';
+  channels.forEach((c, i) => {
+    html += '<tr>'
+      + '<td>' + (c.logo ? '<img src="' + esc(c.logo) + '" alt="" onerror="this.style.visibility=\'hidden\'">' : '') + '</td>'
+      + '<td><b>' + esc(c.name) + '</b><br><span class="pill">' + esc(c.group || 'General') + '</span></td>'
+      + '<td><span class="url">' + esc(c.url) + '</span></td>'
+      + '<td style="white-space:nowrap">'
+      + '<button type="button" class="small" data-act="test" data-i="' + i + '">Test</button> '
+      + '<button type="button" class="small" data-act="edit" data-i="' + i + '">Edit</button> '
+      + '<button type="button" class="small danger" data-act="del" data-i="' + i + '">Delete</button>'
+      + '</td></tr>';
+  });
+  html += '</table>';
+  box.innerHTML = html;
+  box.querySelectorAll('button[data-act]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const i = Number(b.getAttribute('data-i'));
+      const act = b.getAttribute('data-act');
+      if (act === 'del') { channels.splice(i, 1); renderList(); setStatus($('saveAllStatus'), 'Channel deleted from the list — press “Save all channels” to apply it.', 'muted'); }
+      else if (act === 'edit') { startEdit(i); }
+      else if (act === 'test') { testStream(channels[i].url, $('saveAllStatus')); }
+    });
+  });
+}
+function clearForm() {
+  $('fName').value = ''; $('fLogo').value = ''; $('fUrl').value = ''; $('fGroup').value = '';
+  editingIndex = -1;
+  $('formTitle').textContent = '3. Add a channel';
+  $('addChBtn').textContent = 'Add channel';
+  $('cancelEditBtn').style.display = 'none';
+}
+function startEdit(i) {
+  const c = channels[i];
+  editingIndex = i;
+  $('fName').value = c.name || ''; $('fLogo').value = c.logo || '';
+  $('fUrl').value = c.url || ''; $('fGroup').value = c.group || '';
+  $('formTitle').textContent = '3. Edit channel: ' + (c.name || '');
+  $('addChBtn').textContent = 'Save changes';
+  $('cancelEditBtn').style.display = '';
+  $('fName').focus();
+  window.scrollTo({ top: $('formTitle').offsetTop - 10, behavior: 'smooth' });
+}
+function buildM3U(list) {
+  let out = '#EXTM3U\n';
+  list.forEach((c) => {
+    const name = attr(c.name || 'Untitled');
+    const group = attr(c.group || 'General');
+    const logo = attr(c.logo || '');
+    out += '#EXTINF:-1 tvg-id="" tvg-name="' + name + '"' + (logo ? ' tvg-logo="' + logo + '"' : '') + ' group-title="' + group + '",' + name + '\n' + (c.url || '').trim() + '\n';
+  });
+  return out;
+}
+function parseM3U(text) {
+  const lines = text.split(/\r?\n/);
+  const found = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line.startsWith('#EXTINF')) continue;
+    const logo = (line.match(/tvg-logo="([^"]*)"/) || [])[1] || '';
+    const group = (line.match(/group-title="([^"]*)"/) || [])[1] || '';
+    const name = (line.split(',').pop() || '').trim();
+    let url = '';
+    for (let j = i + 1; j < lines.length; j++) {
+      const next = lines[j].trim();
+      if (!next) continue;
+      if (next.startsWith('#')) break;
+      url = next; break;
+    }
+    if (name && url) found.push({ name, logo, url, group: group || 'General' });
+  }
+  return found;
+}
+async function testStream(url, statusEl) {
+  if (!/^https?:\/\//i.test(url)) { setStatus(statusEl, 'Enter a valid http(s) stream URL first.', 'err'); return; }
+  setStatus(statusEl, 'Testing stream link…', 'muted');
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const text = await r.text();
+    const looksPlaylist = /#EXTM3U|#EXTINF|#EXT-X-VERSION/i.test(text);
+    setStatus(statusEl, looksPlaylist
+      ? 'OK — the link answers and looks like a playable stream playlist.'
+      : 'The link answers (HTTP 200) but did not look like a stream playlist — check it plays in the exe.', looksPlaylist ? 'ok' : 'err');
+  } catch (e) {
+    setStatus(statusEl, 'Browser test failed: ' + e.message + ' — this can be a browser (CORS) block, not a bad link. Try the link in the exe before deleting it.', 'err');
+  }
+}
+async function loadChannels() {
+  try {
+    const r = await fetch(RAW(CHANNELS_JSON) + '?v=' + Date.now());
+    if (!r.ok) { channels = []; renderList(); return; }
+    const j = await r.json();
+    channels = Array.isArray(j.channels) ? j.channels : [];
+  } catch (e) { channels = []; }
+  renderList();
+}
+async function putFile(file, content, message, token) {
+  let sha = null;
+  const cur = await fetch(API(file), { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } });
+  if (cur.ok) { const j = await cur.json(); sha = j.sha; }
+  else if (cur.status !== 404) { throw new Error(file + ': GitHub API HTTP ' + cur.status); }
+  const body = { message, content: b64encode(content), branch: BRANCH };
+  if (sha) body.sha = sha;
+  const put = await fetch(API(file), {
+    method: 'PUT',
+    headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!put.ok) {
+    const err = await put.json().catch(() => ({}));
+    throw new Error(file + ': GitHub API HTTP ' + put.status + (err.message ? ' — ' + err.message : ''));
+  }
+}
+async function saveAll() {
+  const token = getToken();
+  if (!token) { setStatus($('saveAllStatus'), 'Save your GitHub token first (step 1).', 'err'); return; }
+  setStatus($('saveAllStatus'), 'Saving channels to the repo…', 'muted');
+  $('saveAllBtn').disabled = true;
+  try {
+    await putFile(CHANNELS_JSON, JSON.stringify({ note: 'BDStreamHub Desktop channel list, edited from the admin panel.', channels }, null, 2) + '\n', 'Update channel list via admin panel', token);
+    await putFile(CHANNELS_M3U, buildM3U(channels), 'Update channels.m3u via admin panel', token);
+    await putFile(CONFIG_FILE, JSON.stringify({ playlistUrl: CHANNELS_M3U_URL, note: 'BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch (unless an Admin active playlist or a Settings URL is set in the app).' }, null, 2) + '\n', 'Point playlist config at channels.m3u', token);
+    setStatus($('saveAllStatus'), 'Saved! ' + channels.length + ' channel(s) now live — every exe will show them on next launch.', 'ok');
+    await fetchCurrent();
+  } catch (e) {
+    setStatus($('saveAllStatus'), 'Save failed: ' + e.message, 'err');
+  }
+  $('saveAllBtn').disabled = false;
 }
 async function fetchCurrent() {
   setStatus($('currentStatus'), 'Loading current link…', 'muted');
   try {
-    const r = await fetch(RAW_URL + '?v=' + Date.now());
+    const r = await fetch(RAW(CONFIG_FILE) + '?v=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const cfg = await r.json();
-    $('currentLink').textContent = cfg.playlistUrl || '(no playlistUrl in config)';
+    const url = cfg.playlistUrl || '(no playlistUrl in config)';
+    $('currentLink').textContent = url + (url === CHANNELS_M3U_URL ? '  — My channels' : '  — external playlist');
     $('newUrl').value = cfg.playlistUrl || '';
     setStatus($('currentStatus'), 'Loaded just now.', 'ok');
   } catch (e) {
@@ -115,7 +310,7 @@ async function testLink(url, statusEl) {
     setStatus(statusEl, 'Test failed: ' + e.message + ' — the exe would show the same error for this link.', 'err');
   }
 }
-async function saveLink() {
+async function saveExternalLink() {
   const token = getToken();
   const url = $('newUrl').value.trim();
   if (!token) { setStatus($('saveStatus'), 'Save your GitHub token first (step 1).', 'err'); return; }
@@ -123,28 +318,15 @@ async function saveLink() {
   setStatus($('saveStatus'), 'Saving…', 'muted');
   $('saveLinkBtn').disabled = true;
   try {
-    let sha = null;
-    const cur = await fetch(API_URL, { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } });
-    if (cur.ok) { const j = await cur.json(); sha = j.sha; }
-    else if (cur.status !== 404) { throw new Error('GitHub API: HTTP ' + cur.status); }
-    const body = { message: 'Update playlist link via admin panel', content: b64encode(JSON.stringify({ playlistUrl: url, note: 'BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch.' }, null, 2) + '\n'), branch: 'main' };
-    if (sha) body.sha = sha;
-    const put = await fetch(API_URL, {
-      method: 'PUT',
-      headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-    });
-    if (!put.ok) {
-      const err = await put.json().catch(() => ({}));
-      throw new Error('GitHub API: HTTP ' + put.status + (err.message ? ' — ' + err.message : ''));
-    }
-    setStatus($('saveStatus'), 'Saved! All exes will use this link on next launch: ' + url, 'ok');
+    await putFile(CONFIG_FILE, JSON.stringify({ playlistUrl: url, note: 'BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch.' }, null, 2) + '\n', 'Update playlist link via admin panel', token);
+    setStatus($('saveStatus'), 'Saved! All exes will use this playlist on next launch: ' + url, 'ok');
     await fetchCurrent();
   } catch (e) {
     setStatus($('saveStatus'), 'Save failed: ' + e.message, 'err');
   }
   $('saveLinkBtn').disabled = false;
 }
+
 $('saveTokenBtn').addEventListener('click', () => {
   const t = $('token').value.trim();
   if (!t) { setStatus($('tokenStatus'), 'Paste a token first.', 'err'); return; }
@@ -164,11 +346,51 @@ $('testTokenBtn').addEventListener('click', async () => {
     setStatus($('tokenStatus'), 'Token test failed: ' + e.message, 'err');
   }
 });
+$('addChBtn').addEventListener('click', () => {
+  const name = $('fName').value.trim();
+  const url = $('fUrl').value.trim();
+  if (!name) { setStatus($('formStatus'), 'Channel name is required.', 'err'); return; }
+  if (!/^https?:\/\//i.test(url)) { setStatus($('formStatus'), 'Enter a valid http(s) stream URL (.m3u8).', 'err'); return; }
+  const ch = { name, logo: $('fLogo').value.trim(), url, group: $('fGroup').value.trim() || 'General' };
+  if (editingIndex >= 0) { channels[editingIndex] = ch; setStatus($('formStatus'), 'Channel updated — press “Save all channels” to apply it.', 'ok'); }
+  else { channels.push(ch); setStatus($('formStatus'), 'Channel added to the list — press “Save all channels” to apply it.', 'ok'); }
+  clearForm();
+  renderList();
+});
+$('cancelEditBtn').addEventListener('click', () => { clearForm(); setStatus($('formStatus'), 'Edit cancelled.', 'muted'); });
+$('testStreamBtn').addEventListener('click', () => testStream($('fUrl').value.trim(), $('formStatus')));
+$('reloadChBtn').addEventListener('click', async () => { setStatus($('saveAllStatus'), 'Reloading saved channels…', 'muted'); await loadChannels(); setStatus($('saveAllStatus'), 'Reloaded — ' + channels.length + ' saved channel(s). Unsaved changes in the list were discarded.', 'ok'); });
+$('downloadM3uBtn').addEventListener('click', () => {
+  const blob = new Blob([buildM3U(channels)], { type: 'audio/x-mpegurl' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = 'channels.m3u'; a.click();
+  URL.revokeObjectURL(a.href);
+});
+$('saveAllBtn').addEventListener('click', saveAll);
+$('importBtn').addEventListener('click', async () => {
+  const url = $('importUrl').value.trim();
+  if (!/^https?:\/\//i.test(url)) { setStatus($('importStatus'), 'Enter a valid http(s) playlist URL first.', 'err'); return; }
+  setStatus($('importStatus'), 'Importing playlist…', 'muted');
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const found = parseM3U(await r.text());
+    if (!found.length) { setStatus($('importStatus'), 'Loaded, but 0 channels found in this playlist.', 'err'); return; }
+    let added = 0;
+    found.forEach((c) => { if (!channels.some((x) => x.url === c.url)) { channels.push(c); added++; } });
+    renderList();
+    setStatus($('importStatus'), 'Imported ' + added + ' new channel(s) (' + (found.length - added) + ' already in the list) — press “Save all channels” to apply.', 'ok');
+  } catch (e) {
+    setStatus($('importStatus'), 'Import failed: ' + e.message + ' — the playlist may block browser checks; try the exe instead.', 'err');
+  }
+});
 $('refreshBtn').addEventListener('click', fetchCurrent);
-$('testCurrentBtn').addEventListener('click', () => testLink($('currentLink').textContent.trim(), $('currentStatus')));
+$('testCurrentBtn').addEventListener('click', () => testLink($('currentLink').textContent.trim().split('  — ')[0], $('currentStatus')));
 $('testNewBtn').addEventListener('click', () => testLink($('newUrl').value.trim(), $('saveStatus')));
-$('saveLinkBtn').addEventListener('click', saveLink);
+$('saveLinkBtn').addEventListener('click', saveExternalLink);
+
 $('token').value = localStorage.getItem(TOKEN_KEY) || '';
+loadChannels();
 fetchCurrent();
 </script>
 </body>
