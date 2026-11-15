@@ -1,1 +1,1 @@
-{"note":"BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch.","playlistUrl":"https://bdstreamhub-api.hasanvaibd009.workers.dev/playlist.m3u"}
+{"note":"BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch (unless an Admin active playlist or a Settings URL is set in the app).","playlistUrl":"https://raw.githubusercontent.com/tunnabri-ops/bdstreamhub-admin/main/channels.m3u"}
