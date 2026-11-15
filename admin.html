@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BDStreamHub — Admin Panel</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0b0f14; color: #e8eef4; font-family: "Segoe UI", system-ui, Arial, sans-serif; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 28px 16px 60px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h1 span { color: #22c55e; }
+  .sub { color: #93a3b3; font-size: 13px; margin: 0 0 24px; }
+  .card { background: #12181f; border: 1px solid #232e3a; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .card h2 { font-size: 15px; margin: 0 0 10px; }
+  label { display: block; font-size: 13px; color: #93a3b3; margin: 10px 0 6px; }
+  input { width: 100%; background: #0b0f14; border: 1px solid #232e3a; color: #e8eef4; border-radius: 8px; padding: 10px 12px; font-size: 14px; font-family: monospace; }
+  .row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  button { background: #1e293b; color: #e8eef4; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 16px; font-size: 14px; cursor: pointer; }
+  button:hover { border-color: #22c55e; }
+  button.primary { background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 600; }
+  button:disabled { opacity: .5; cursor: wait; }
+  .status { font-size: 13px; line-height: 1.6; margin: 10px 0 0; word-break: break-all; }
+  .status.ok { color: #22c55e; }
+  .status.err { color: #f87171; }
+  .status.muted { color: #93a3b3; }
+  .current { background: #0b0f14; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 12px; font-family: monospace; font-size: 13px; word-break: break-all; }
+  a { color: #22c55e; }
+  .hint { color: #93a3b3; font-size: 12px; line-height: 1.6; margin: 10px 0 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>BDStreamHub <span>Admin Panel</span></h1>
+  <p class="sub">Change the playlist link here — every BDStreamHub Desktop exe picks it up on next launch.</p>
+  <div class="card">
+    <h2>1. GitHub token</h2>
+    <p class="hint">This page saves the link by editing <code>playlist-config.json</code> in the repo. It needs a GitHub token with the <b>repo</b> scope. Create one here: <a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">github.com/settings/tokens/new</a> (classic token, tick <b>repo</b>), then paste it below. The token stays in <b>your browser only</b> — never share it.</p>
+    <label for="token">GitHub Personal Access Token (classic, repo scope)</label>
+    <input id="token" type="password" placeholder="ghp_…" autocomplete="off">
+    <div class="row">
+      <button id="saveTokenBtn" type="button">Save token</button>
+      <button id="testTokenBtn" type="button">Test token</button>
+    </div>
+    <p id="tokenStatus" class="status muted"></p>
+  </div>
+  <div class="card">
+    <h2>2. Current playlist link</h2>
+    <div id="currentLink" class="current">Loading…</div>
+    <div class="row">
+      <button id="refreshBtn" type="button">Refresh</button>
+      <button id="testCurrentBtn" type="button">Test this link</button>
+    </div>
+    <p id="currentStatus" class="status muted"></p>
+  </div>
+  <div class="card">
+    <h2>3. Change the link</h2>
+    <label for="newUrl">New playlist URL (.m3u)</label>
+    <input id="newUrl" type="url" placeholder="https://…/playlist.m3u" spellcheck="false">
+    <div class="row">
+      <button id="testNewBtn" type="button">Test link</button>
+      <button id="saveLinkBtn" type="button" class="primary">Save link for all exes</button>
+    </div>
+    <p id="saveStatus" class="status muted"></p>
+    <p class="hint">After saving, the exe reads the new link the next time it starts (GitHub's file cache can lag a few minutes). The exe's own Admin panel (password admin123) and its Settings URL still override this remote link on that PC.</p>
+  </div>
+</div>
+<script>
+'use strict';
+const OWNER = 'tunnabri-ops';
+const REPO = 'bdstreamhub-admin';
+const FILE = 'playlist-config.json';
+const RAW_URL = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${FILE}`;
+const API_URL = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+const TOKEN_KEY = 'bds-admin-gh-token';
+const $ = (id) => document.getElementById(id);
+function setStatus(el, text, kind) {
+  el.textContent = text;
+  el.className = 'status ' + (kind || 'muted');
+}
+function getToken() { return ($('token').value || localStorage.getItem(TOKEN_KEY) || '').trim(); }
+function b64encode(str) {
+  const bytes = new TextEncoder().encode(str);
+  let bin = '';
+  bytes.forEach((b) => { bin += String.fromCharCode(b); });
+  return btoa(bin);
+}
+async function fetchCurrent() {
+  setStatus($('currentStatus'), 'Loading current link…', 'muted');
+  try {
+    const r = await fetch(RAW_URL + '?v=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const cfg = await r.json();
+    $('currentLink').textContent = cfg.playlistUrl || '(no playlistUrl in config)';
+    $('newUrl').value = cfg.playlistUrl || '';
+    setStatus($('currentStatus'), 'Loaded just now.', 'ok');
+  } catch (e) {
+    $('currentLink').textContent = '(could not load config)';
+    setStatus($('currentStatus'), 'Failed to load config: ' + e.message, 'err');
+  }
+}
+async function testLink(url, statusEl) {
+  if (!/^https?:\/\//i.test(url)) { setStatus(statusEl, 'Enter a valid http(s) URL first.', 'err'); return; }
+  setStatus(statusEl, 'Testing link… (downloading playlist)', 'muted');
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const text = await r.text();
+    const n = (text.match(/#EXTINF/g) || []).length;
+    const names = [...text.matchAll(/#EXTINF[^\n]*,([^\n\r]+)/g)].slice(0, 3).map((m) => m[1].trim());
+    setStatus(statusEl, n
+      ? `OK — ${n} channels found.` + (names.length ? ` e.g. ${names.join(', ')}` : '')
+      : 'Loaded, but 0 playable channels found in this playlist.', n ? 'ok' : 'err');
+  } catch (e) {
+    setStatus(statusEl, 'Test failed: ' + e.message + ' — the exe would show the same error for this link.', 'err');
+  }
+}
+async function saveLink() {
+  const token = getToken();
+  const url = $('newUrl').value.trim();
+  if (!token) { setStatus($('saveStatus'), 'Save your GitHub token first (step 1).', 'err'); return; }
+  if (!/^https?:\/\//i.test(url)) { setStatus($('saveStatus'), 'Enter a valid http(s) playlist URL.', 'err'); return; }
+  setStatus($('saveStatus'), 'Saving…', 'muted');
+  $('saveLinkBtn').disabled = true;
+  try {
+    let sha = null;
+    const cur = await fetch(API_URL, { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } });
+    if (cur.ok) { const j = await cur.json(); sha = j.sha; }
+    else if (cur.status !== 404) { throw new Error('GitHub API: HTTP ' + cur.status); }
+    const body = { message: 'Update playlist link via admin panel', content: b64encode(JSON.stringify({ playlistUrl: url, note: 'BDStreamHub Desktop remote playlist config. Change playlistUrl here and every exe picks it up on next launch.' }, null, 2) + '\n'), branch: 'main' };
+    if (sha) body.sha = sha;
+    const put = await fetch(API_URL, {
+      method: 'PUT',
+      headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (!put.ok) {
+      const err = await put.json().catch(() => ({}));
+      throw new Error('GitHub API: HTTP ' + put.status + (err.message ? ' — ' + err.message : ''));
+    }
+    setStatus($('saveStatus'), 'Saved! All exes will use this link on next launch: ' + url, 'ok');
+    await fetchCurrent();
+  } catch (e) {
+    setStatus($('saveStatus'), 'Save failed: ' + e.message, 'err');
+  }
+  $('saveLinkBtn').disabled = false;
+}
+$('saveTokenBtn').addEventListener('click', () => {
+  const t = $('token').value.trim();
+  if (!t) { setStatus($('tokenStatus'), 'Paste a token first.', 'err'); return; }
+  localStorage.setItem(TOKEN_KEY, t);
+  setStatus($('tokenStatus'), 'Token saved in this browser.', 'ok');
+});
+$('testTokenBtn').addEventListener('click', async () => {
+  const token = getToken();
+  if (!token) { setStatus($('tokenStatus'), 'Paste a token first.', 'err'); return; }
+  setStatus($('tokenStatus'), 'Testing token…', 'muted');
+  try {
+    const r = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } });
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — check the token and its repo scope.');
+    const u = await r.json();
+    setStatus($('tokenStatus'), 'Token works — signed in as @' + u.login + '.', 'ok');
+  } catch (e) {
+    setStatus($('tokenStatus'), 'Token test failed: ' + e.message, 'err');
+  }
+});
+$('refreshBtn').addEventListener('click', fetchCurrent);
+$('testCurrentBtn').addEventListener('click', () => testLink($('currentLink').textContent.trim(), $('currentStatus')));
+$('testNewBtn').addEventListener('click', () => testLink($('newUrl').value.trim(), $('saveStatus')));
+$('saveLinkBtn').addEventListener('click', saveLink);
+$('token').value = localStorage.getItem(TOKEN_KEY) || '';
+fetchCurrent();
+</script>
+</body>
+</html>
