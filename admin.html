@@ -6,45 +6,127 @@
 <title>BDStreamHub — Admin Panel</title>
 <style>
   * { box-sizing: border-box; }
-  body { margin: 0; background: #0b0f14; color: #e8eef4; font-family: "Segoe UI", system-ui, Arial, sans-serif; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 16px 60px; }
-  h1 { font-size: 22px; margin: 0 0 4px; }
-  h1 span { color: #22c55e; }
-  .sub { color: #93a3b3; font-size: 13px; margin: 0 0 24px; }
-  .card { background: #12181f; border: 1px solid #232e3a; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
-  .card h2 { font-size: 15px; margin: 0 0 10px; }
-  label { display: block; font-size: 13px; color: #93a3b3; margin: 10px 0 6px; }
-  input { width: 100%; background: #0b0f14; border: 1px solid #232e3a; color: #e8eef4; border-radius: 8px; padding: 10px 12px; font-size: 14px; font-family: monospace; }
-  .row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
-  button { background: #1e293b; color: #e8eef4; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 16px; font-size: 14px; cursor: pointer; }
+  body {
+    margin: 0; color: #e8eef4;
+    font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    background:
+      radial-gradient(900px 400px at 85% -10%, rgba(34,197,94,.14), transparent 60%),
+      radial-gradient(700px 380px at -10% 0%, rgba(56,189,248,.10), transparent 55%),
+      #0a0e13;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 28px 16px 60px; }
+  header.hero {
+    background: linear-gradient(135deg, #14532d, #0f766e 55%, #155e75);
+    border: 1px solid rgba(255,255,255,.12);
+    border-radius: 18px; padding: 20px 22px; margin-bottom: 18px;
+    display: flex; align-items: center; gap: 16px;
+    box-shadow: 0 12px 32px rgba(0,0,0,.35);
+  }
+  .mark {
+    flex: 0 0 auto; width: 52px; height: 52px; border-radius: 14px;
+    background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; color: #fff;
+  }
+  header.hero h1 { font-size: 22px; margin: 0; letter-spacing: .2px; }
+  header.hero p { margin: 4px 0 0; color: rgba(255,255,255,.82); font-size: 13px; line-height: 1.5; }
+  .hero-right { margin-left: auto; display: flex; flex-direction: column; gap: 8px; align-items: flex-end; }
+  .count-pill {
+    background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.25);
+    color: #fff; border-radius: 20px; padding: 5px 13px; font-size: 13px; font-weight: 600;
+    white-space: nowrap;
+  }
+  .card { background: #12181f; border: 1px solid #232e3a; border-radius: 16px; padding: 18px; margin-bottom: 16px; box-shadow: 0 6px 20px rgba(0,0,0,.22); }
+  .card h2 { font-size: 16px; margin: 0 0 10px; display: flex; align-items: center; gap: 10px; }
+  .num {
+    flex: 0 0 auto; width: 26px; height: 26px; border-radius: 50%;
+    background: #16a34a; color: #fff; font-size: 13px; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  label { display: block; font-size: 13px; color: #93a3b3; margin: 12px 0 6px; }
+  input {
+    width: 100%; background: #0b0f14; border: 1px solid #2a3644; color: #e8eef4;
+    border-radius: 10px; padding: 11px 12px; font-size: 14px; font-family: monospace;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  input:focus { outline: none; border-color: #22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,.18); }
+  .row { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+  button {
+    background: #1e293b; color: #e8eef4; border: 1px solid #2a3644; border-radius: 10px;
+    padding: 10px 16px; font-size: 14px; cursor: pointer; transition: border-color .15s, transform .1s;
+  }
   button:hover { border-color: #22c55e; }
-  button.primary { background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 600; }
+  button:active { transform: translateY(1px); }
+  button.primary { background: linear-gradient(135deg, #16a34a, #059669); border-color: #16a34a; color: #fff; font-weight: 600; }
+  button.ghost { background: transparent; }
   button.danger { border-color: #7f1d1d; color: #fca5a5; }
-  button.small { padding: 6px 10px; font-size: 12px; }
+  button.small { padding: 6px 11px; font-size: 12px; border-radius: 8px; }
   button:disabled { opacity: .5; cursor: wait; }
-  .status { font-size: 13px; line-height: 1.6; margin: 10px 0 0; word-break: break-all; }
-  .status.ok { color: #22c55e; }
+  .status { font-size: 13px; line-height: 1.6; margin: 12px 0 0; word-break: break-all; }
+  .status.ok { color: #4ade80; }
   .status.err { color: #f87171; }
   .status.muted { color: #93a3b3; }
-  .current { background: #0b0f14; border: 1px solid #232e3a; border-radius: 8px; padding: 10px 12px; font-family: monospace; font-size: 13px; word-break: break-all; }
-  a { color: #22c55e; }
-  .hint { color: #93a3b3; font-size: 12px; line-height: 1.6; margin: 10px 0 0; }
+  .current { background: #0b0f14; border: 1px solid #2a3644; border-radius: 10px; padding: 11px 12px; font-family: monospace; font-size: 13px; word-break: break-all; }
+  a { color: #4ade80; }
+  .hint { color: #93a3b3; font-size: 12px; line-height: 1.7; margin: 12px 0 0; }
   table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
-  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #232e3a; vertical-align: middle; }
-  th { color: #93a3b3; font-size: 12px; }
+  th, td { text-align: left; padding: 9px 6px; border-bottom: 1px solid #232e3a; vertical-align: middle; }
+  th { color: #93a3b3; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; }
+  tbody tr:hover { background: rgba(255,255,255,.025); }
   td .url { font-family: monospace; font-size: 11px; color: #93a3b3; word-break: break-all; }
-  td img { width: 40px; height: 40px; object-fit: contain; background: #0b0f14; border: 1px solid #232e3a; border-radius: 6px; display: block; }
+  td img { width: 44px; height: 44px; object-fit: contain; background: #0b0f14; border: 1px solid #2a3644; border-radius: 8px; display: block; }
   .empty { color: #93a3b3; font-size: 13px; margin: 12px 0 0; }
-  .pill { display: inline-block; background: #1e293b; border: 1px solid #232e3a; border-radius: 20px; padding: 2px 10px; font-size: 12px; color: #93a3b3; }
+  .pill { display: inline-block; background: #1e293b; border: 1px solid #2a3644; border-radius: 20px; padding: 2px 10px; font-size: 12px; color: #a7b6c6; }
+  footer { text-align: center; color: #5b6b7c; font-size: 12px; margin-top: 8px; }
+  /* Password gate */
+  #gate {
+    position: fixed; inset: 0; z-index: 50;
+    background: radial-gradient(800px 400px at 50% 0%, rgba(34,197,94,.12), transparent 60%), rgba(7,10,14,.97);
+    display: flex; align-items: center; justify-content: center; padding: 20px;
+  }
+  #gate.hidden { display: none; }
+  .gate-card {
+    width: 100%; max-width: 380px; background: #12181f; border: 1px solid #2a3644;
+    border-radius: 18px; padding: 28px 24px; text-align: center;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  }
+  .gate-card .mark { margin: 0 auto 14px; background: linear-gradient(135deg, #16a34a, #0f766e); border: none; }
+  .gate-card h2 { margin: 0 0 6px; font-size: 19px; }
+  .gate-card p { color: #93a3b3; font-size: 13px; margin: 0 0 6px; line-height: 1.6; }
+  .gate-card input { text-align: center; margin-top: 12px; }
+  .gate-card button { width: 100%; margin-top: 12px; }
+  .gate-err { color: #f87171; font-size: 13px; min-height: 20px; margin: 10px 0 0; }
 </style>
 </head>
 <body>
+<div id="gate">
+  <div class="gate-card">
+    <div class="mark">▶</div>
+    <h2>BDStreamHub Admin</h2>
+    <p>Enter the admin password to continue.</p>
+    <input id="gatePass" type="password" placeholder="Password" autocomplete="off">
+    <button id="gateBtn" type="button" class="primary">Unlock</button>
+    <p id="gateErr" class="gate-err"></p>
+    <p style="font-size:11px;color:#5b6b7c">This lock keeps casual visitors out. The page itself is public, so it is not bank-grade security.</p>
+  </div>
+</div>
+
 <div class="wrap">
-  <h1>BDStreamHub <span>Admin Panel</span></h1>
-  <p class="sub">Add your own channels — name, logo, stream link (.m3u8) and group — and every BDStreamHub Desktop exe shows them on next launch.</p>
+  <header class="hero">
+    <div class="mark">▶</div>
+    <div>
+      <h1>BDStreamHub Admin</h1>
+      <p>Add your own channels — name, logo, stream link (.m3u8) and group — and every BDStreamHub Desktop exe shows them on next launch.</p>
+    </div>
+    <div class="hero-right">
+      <span id="chCountTop" class="count-pill">0 channels</span>
+      <button id="lockBtn" type="button" class="ghost small">🔒 Lock</button>
+    </div>
+  </header>
 
   <div class="card">
-    <h2>1. GitHub token</h2>
+    <h2><span class="num">1</span> GitHub token</h2>
     <p class="hint">Saving writes <code>channels.json</code>, <code>channels.m3u</code> and <code>playlist-config.json</code> in the repo. It needs a GitHub token with the <b>repo</b> scope. Create one here: <a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">github.com/settings/tokens/new</a> (classic token, tick <b>repo</b>), then paste it below. The token stays in <b>your browser only</b> — never share it.</p>
     <label for="token">GitHub Personal Access Token (classic, repo scope)</label>
     <input id="token" type="password" placeholder="ghp_…" autocomplete="off">
@@ -56,7 +138,7 @@
   </div>
 
   <div class="card">
-    <h2>2. My channels <span id="chCount" class="pill">0 channels</span></h2>
+    <h2><span class="num">2</span> My channels <span id="chCount" class="pill">0 channels</span></h2>
     <div id="chList"></div>
     <p class="hint">Channels are saved in the repo as <code>channels.m3u</code> — the exe reads that file. Add channels below, then press <b>Save all channels</b>.</p>
     <div class="row">
@@ -68,7 +150,7 @@
   </div>
 
   <div class="card">
-    <h2 id="formTitle">3. Add a channel</h2>
+    <h2><span class="num">3</span> <span id="formTitle">Add a channel</span></h2>
     <label for="fName">Channel name</label>
     <input id="fName" type="text" placeholder="e.g. ATN Bangla" spellcheck="false">
     <label for="fLogo">Logo / picture link (optional)</label>
@@ -87,7 +169,7 @@
   </div>
 
   <div class="card">
-    <h2>4. Import from a playlist URL (optional)</h2>
+    <h2><span class="num">4</span> Import from a playlist URL (optional)</h2>
     <p class="hint">Have a full .m3u playlist link? Paste it here to import all its channels into the list above, then edit or delete any of them and save.</p>
     <label for="importUrl">Playlist URL (.m3u)</label>
     <input id="importUrl" type="url" placeholder="https://…/playlist.m3u" spellcheck="false">
@@ -98,7 +180,7 @@
   </div>
 
   <div class="card">
-    <h2>5. Use an external playlist instead (optional)</h2>
+    <h2><span class="num">5</span> Use an external playlist instead (optional)</h2>
     <div id="currentLink" class="current">Loading…</div>
     <div class="row">
       <button id="refreshBtn" type="button">Refresh</button>
@@ -114,6 +196,8 @@
     <p id="saveStatus" class="status muted"></p>
     <p class="hint">Saving an external playlist replaces “My channels” until you save channels again. The exe's own Admin panel (password admin123) and its Settings URL still override this remote link on that PC. After any save, the exe reads the new list the next time it starts (GitHub's file cache can lag a few minutes).</p>
   </div>
+
+  <footer>BDStreamHub Desktop · Admin Panel · sifur-mail.com</footer>
 </div>
 
 <script>
@@ -127,7 +211,10 @@ const CONFIG_FILE = 'playlist-config.json';
 const RAW = (f) => `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${f}`;
 const API = (f) => `https://api.github.com/repos/${OWNER}/${REPO}/contents/${f}`;
 const TOKEN_KEY = 'bds-admin-gh-token';
+const UNLOCK_KEY = 'bds-admin-unlocked';
 const CHANNELS_M3U_URL = RAW(CHANNELS_M3U);
+// SHA-256 of the admin password (the password itself is not stored in this file).
+const PASS_HASH = '5f9d0f4baa71a394d09196ec105894c7e7505d8a88daa3f4a854b577fe175a52';
 
 const $ = (id) => document.getElementById(id);
 function setStatus(el, text, kind) { el.textContent = text; el.className = 'status ' + (kind || 'muted'); }
@@ -139,12 +226,44 @@ function b64encode(str) {
 }
 function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 function attr(s) { return String(s == null ? '' : s).replace(/"/g, "'").replace(/[\r\n]/g, ' ').trim(); }
+async function sha256hex(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+function lock() {
+  sessionStorage.removeItem(UNLOCK_KEY);
+  $('gatePass').value = '';
+  $('gateErr').textContent = '';
+  $('gate').classList.remove('hidden');
+  $('gatePass').focus();
+}
+async function tryUnlock() {
+  const v = $('gatePass').value;
+  if (!v) { $('gateErr').textContent = 'Enter the password first.'; return; }
+  $('gateBtn').disabled = true;
+  const h = await sha256hex(v);
+  $('gateBtn').disabled = false;
+  if (h === PASS_HASH) {
+    sessionStorage.setItem(UNLOCK_KEY, '1');
+    $('gate').classList.add('hidden');
+  } else {
+    $('gateErr').textContent = 'Wrong password — try again.';
+    $('gatePass').select();
+  }
+}
+$('gateBtn').addEventListener('click', tryUnlock);
+$('gatePass').addEventListener('keydown', (e) => { if (e.key === 'Enter') tryUnlock(); });
+$('lockBtn').addEventListener('click', lock);
+if (sessionStorage.getItem(UNLOCK_KEY) === '1') { $('gate').classList.add('hidden'); }
+else { $('gatePass').focus(); }
 
 let channels = [];
 let editingIndex = -1;
 
 function renderList() {
-  $('chCount').textContent = channels.length + (channels.length === 1 ? ' channel' : ' channels');
+  const label = channels.length + (channels.length === 1 ? ' channel' : ' channels');
+  $('chCount').textContent = label;
+  $('chCountTop').textContent = label;
   const box = $('chList');
   if (!channels.length) {
     box.innerHTML = '<p class="empty">No channels yet — add your first channel below, or import a playlist in step 4.</p>';
@@ -177,7 +296,7 @@ function renderList() {
 function clearForm() {
   $('fName').value = ''; $('fLogo').value = ''; $('fUrl').value = ''; $('fGroup').value = '';
   editingIndex = -1;
-  $('formTitle').textContent = '3. Add a channel';
+  $('formTitle').textContent = 'Add a channel';
   $('addChBtn').textContent = 'Add channel';
   $('cancelEditBtn').style.display = 'none';
 }
@@ -186,7 +305,7 @@ function startEdit(i) {
   editingIndex = i;
   $('fName').value = c.name || ''; $('fLogo').value = c.logo || '';
   $('fUrl').value = c.url || ''; $('fGroup').value = c.group || '';
-  $('formTitle').textContent = '3. Edit channel: ' + (c.name || '');
+  $('formTitle').textContent = 'Edit channel: ' + (c.name || '');
   $('addChBtn').textContent = 'Save changes';
   $('cancelEditBtn').style.display = '';
   $('fName').focus();
