@@ -1,5 +1,5 @@
 {
-  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 8 dead (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe).",
+  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 7 dead (Kids TV revived on recheck) (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe). 2026-11-24 20:01 rslivego.pages.dev sources (Tapmad/Sports/AynaOTT/Bangladesh playlists): 163 candidates live-verified sequentially, 51 new added (STAR SPORTS 1 HD, STAR SPORTS 2 HD, STAR SPORTS SELECT 1 HD, STAR SPORTS SELECT 2 HD, STAR SPORTS 3, SONY SPORTS TEN 1 HD, SONY SPORTS TEN 2 HD, SONY SPORTS TEN 3 HD, SONY SPORTS TEN 5 HD, EUROSPORT HD, TEN CRICKET, CRICBUZZ, WILLOW 2, SKY SPORTS CRICKET, TNT SPORTS 3 HD, BEIN SPORTS 1 HD, BEIN SPORTS 3 HD, BEIN SPORTS ARABIC HD, BEIN SPORTS EXTRA HD, UNITE8 SPORTS 1 HD, SONY MAX HD, &PICTURES HD, STAR MOVIES HD, SONY YAY, POGO, NICK BANGLA, DISCOVERY BANGLA, Deepto TV, Iqra Bangla, MADANI TV, Bharat Samachar, CNN, DW News, Khushboo, Network 10, B4U Kadak, Dangal 2, Discovery Turbo, Nat Geo TV, TLC HD, Deen TV, Discover Pikstan, Hum TV, Islam TV, Azan TV, BTL TV (Netherlands), Ekushey TV, Jalsha Movies, Matribhumi TV, NAN TV, Probashi TV News); 10 duplicates skipped; 80 dead excluded; 20 Ayna tvsen7 links unverified (not added); Tapmad live matches all 403 dead.",
   "channels": [
     {
       "name": "BD vs SA Live1",
@@ -1500,6 +1500,312 @@
       "group": "Sports",
       "logo": "https://i.imgur.com/V562tpO.png",
       "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8"
+    },
+    {
+      "name": "STAR SPORTS 1 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/hGVdbCWv/Star-Sports-1.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/5.m3u8"
+    },
+    {
+      "name": "STAR SPORTS 2 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/jjy7Q80w/Star-Sports-2.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/6.m3u8"
+    },
+    {
+      "name": "STAR SPORTS SELECT 1 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/85sw40LV/Star-Sports-Select-1.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/7.m3u8"
+    },
+    {
+      "name": "STAR SPORTS SELECT 2 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/2jsTdTyR/Star-Sports-Select-2.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/8.m3u8"
+    },
+    {
+      "name": "STAR SPORTS 3",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/mrLmzDDk/Star-Sports-3.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/9.m3u8"
+    },
+    {
+      "name": "SONY SPORTS TEN 1 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/J48Z4FtV/Sony-Ten-1-HD.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/12.m3u8"
+    },
+    {
+      "name": "SONY SPORTS TEN 2 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/FHsS0JjV/Sony-Ten-2-HD.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/13.m3u8"
+    },
+    {
+      "name": "SONY SPORTS TEN 3 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/SxTMdNrB/Sony-Ten-3-HD.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/14.m3u8"
+    },
+    {
+      "name": "SONY SPORTS TEN 5 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/7L5TW8tJ/Sony-Ten-5-HD.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/15.m3u8"
+    },
+    {
+      "name": "EUROSPORT HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/WpdTqpF0/Eurosport.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/16.m3u8"
+    },
+    {
+      "name": "TEN CRICKET",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/26X9fDrJ/ten-cricket.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/19.m3u8"
+    },
+    {
+      "name": "CRICBUZZ",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/VvdTSNKN/CRICBUZZ.webp",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/22.m3u8"
+    },
+    {
+      "name": "WILLOW 2",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/CKpVWbmd/WILLOW-SPORTS.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/24.m3u8"
+    },
+    {
+      "name": "SKY SPORTS CRICKET",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/SRvBV9nN/SKY-SPORTS-CRICKET.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/25.m3u8"
+    },
+    {
+      "name": "TNT SPORTS 3 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/Wp9my6s3/TNT-Sports-3.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/29.m3u8"
+    },
+    {
+      "name": "BEIN SPORTS 1 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/rFLZ8Nvc/BEIN-SPORTS-1.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/30.m3u8"
+    },
+    {
+      "name": "BEIN SPORTS 3 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/ZnPc9X15/BEIN-SPORTS-3.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/32.m3u8"
+    },
+    {
+      "name": "BEIN SPORTS ARABIC HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/QCqQN1TJ/BEIN-SPORTS-ARABIC.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/33.m3u8"
+    },
+    {
+      "name": "BEIN SPORTS EXTRA HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/NF23WG2g/Be-IN-Sports-XTRA.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/34.m3u8"
+    },
+    {
+      "name": "UNITE8 SPORTS 1 HD",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/nhVXfN2N/Unite8-Sports-1.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/35.m3u8"
+    },
+    {
+      "name": "SONY MAX HD",
+      "group": "Indian",
+      "logo": "https://i.postimg.cc/vZmZNfHd/Sony-Max-HD.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/50.m3u8"
+    },
+    {
+      "name": "&PICTURES HD",
+      "group": "Indian",
+      "logo": "https://i.postimg.cc/ncSJM5px/And-Picture.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/51.m3u8"
+    },
+    {
+      "name": "STAR MOVIES HD",
+      "group": "Indian",
+      "logo": "https://i.postimg.cc/SQZ5GM52/Star-Movies.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/54.m3u8"
+    },
+    {
+      "name": "SONY YAY",
+      "group": "Cartoon",
+      "logo": "https://i.postimg.cc/prj6qbB9/SONY-YAY.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/23.m3u8"
+    },
+    {
+      "name": "POGO",
+      "group": "Cartoon",
+      "logo": "https://i.postimg.cc/502gHPf7/POGO1664977122.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/56.m3u8"
+    },
+    {
+      "name": "NICK BANGLA",
+      "group": "Cartoon",
+      "logo": "https://i.postimg.cc/9XvQFHny/Nick-Bangla.jpg",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/64.m3u8"
+    },
+    {
+      "name": "DISCOVERY BANGLA",
+      "group": "Documentary",
+      "logo": "https://i.postimg.cc/bJbPMs9m/Discovery.png",
+      "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/63.m3u8"
+    },
+    {
+      "name": "Deepto TV",
+      "group": "Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-09/images_ebcb173e194bfeede20303e348b80999_playmist_deepto_tv_400x400.jpg",
+      "url": "https://tvsen5.aynaott.com/tK2BNdfsdfsdf/index.m3u8"
+    },
+    {
+      "name": "Iqra Bangla",
+      "group": "Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_1e415d048ff6a503320fe9e8cb703345_playmist_iqra_bangla_tv_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/EuEy5mBW/index.m3u8"
+    },
+    {
+      "name": "MADANI TV",
+      "group": "Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_b8b896039b6eb685a11aab0b7b4a33d3_playmist_madani_tv_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/z24qLsqV/index.m3u8"
+    },
+    {
+      "name": "Bharat Samachar",
+      "group": "News",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_d52623f16135dea6bd76f7bdacd4b886_playmist_bharat_samachar_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8"
+    },
+    {
+      "name": "CNN",
+      "group": "News",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_3ce5ce236141274767c8ee8148b88a5d_playmist_cnn_400x400.jpg",
+      "url": "https://tvsen6.aynaott.com/cnn/index.m3u8"
+    },
+    {
+      "name": "DW News",
+      "group": "News",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_e9cbcb0f33668b33e4b5dd06143aa1c6_playmist_dw400x400.jpg",
+      "url": "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8"
+    },
+    {
+      "name": "Khushboo",
+      "group": "Indian Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1544964341f4ed337430057b9634b1ad_playmist_khushboo_400x400.jpg",
+      "url": "https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8"
+    },
+    {
+      "name": "Network 10",
+      "group": "Indian Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_35e8912e73d3759eb0f9e21a815d1a80_playmist_network_10_400x400.jpg",
+      "url": "https://tvsen6.aynaott.com/3Cb2WLFz/index.m3u8"
+    },
+    {
+      "name": "B4U Kadak",
+      "group": "Indian",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_4398175b0b608f28ed92652c90450a2f_playmist_b4u_music_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
+    },
+    {
+      "name": "Dangal 2",
+      "group": "Indian",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_c41a97b3f4c0f44bd3c609d7cbb57cef_playmist_dangal_2_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8"
+    },
+    {
+      "name": "Discovery Turbo",
+      "group": "Documentary",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_fc6169a315d90d5bdd68fdfe4e35d2c1_playmist_discovery_turbo_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/9tYGMmMS/index.m3u8"
+    },
+    {
+      "name": "Nat Geo TV",
+      "group": "Documentary",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_25b786047244481532eb505dfba85580_playmist_nat_geo_tv_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8"
+    },
+    {
+      "name": "TLC HD",
+      "group": "Entertainment",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_7c9578433e8f6ab63736a08edef56644_playmist_tlc_hd_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/EJagkNL2/index.m3u8"
+    },
+    {
+      "name": "Deen TV",
+      "group": "Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_61c8b190119b0d1adbfde37c4b521043_playmist_deen_tv_400x400.jpg",
+      "url": "https://tvsen3.aynaott.com/TJcnZW3U/index.m3u8"
+    },
+    {
+      "name": "Discover Pikstan",
+      "group": "News",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_efeb6a966b36ef807b0aa9bfd5229360_playmist_discover_pikstan.jpg",
+      "url": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8"
+    },
+    {
+      "name": "Hum TV",
+      "group": "Entertainment",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-11-05/images_868f4d3f6f0045f3563707cd0187548f_playmist_hum_tv_logo.jpg",
+      "url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8"
+    },
+    {
+      "name": "Islam TV",
+      "group": "Bangla",
+      "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-15/images_bf2a332556cb4c5da9861e7b981aac1d_playmist_islam.jpg",
+      "url": "https://tvsen1.aynaott.com/bB3A5dyq/index.m3u8"
+    },
+    {
+      "name": "Azan TV",
+      "group": "Bangla",
+      "logo": "https://i.imgur.com/JlqS6I4.jpeg",
+      "url": "https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8"
+    },
+    {
+      "name": "BTL TV (Netherlands)",
+      "group": "Bangla",
+      "logo": "https://yt3.googleusercontent.com/ytc/APkrFKZYgQTsDhkbaqmPRCPZIf0UgZqF1wa6aG2eo8ti=s176-c-k-c0x00ffffff-no-rj-mo",
+      "url": "https://cdn.liveplustv.com/v1/live/btl-tv/master.m3u8"
+    },
+    {
+      "name": "Ekushey TV",
+      "group": "News",
+      "logo": "https://i.imgur.com/lRpkGHj.png",
+      "url": "https://ekusheyserver.com/etvlivesn.m3u8"
+    },
+    {
+      "name": "Jalsha Movies",
+      "group": "Movies",
+      "logo": "https://i.imgur.com/25eWjX2.png",
+      "url": "https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "name": "Matribhumi TV",
+      "group": "Bangla",
+      "logo": "https://www.jagobd.com/wp-content/uploads/2024/10/matribhumi.jpg",
+      "url": "http://live.playmax.live/matribhumi/index.m3u8"
+    },
+    {
+      "name": "NAN TV",
+      "group": "News",
+      "logo": "https://www.jagobd.com/wp-content/uploads/2019/11/NAN-TV-Logo-02.png",
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8"
+    },
+    {
+      "name": "Probashi TV News",
+      "group": "News",
+      "logo": "https://i.imgur.com/7oTsfQ4.png",
+      "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8"
     }
   ]
 }
