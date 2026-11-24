@@ -1,5 +1,5 @@
 {
-  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user.",
+  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 8 dead (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe).",
   "channels": [
     {
       "name": "BD vs SA Live1",
@@ -84,12 +84,6 @@
       "group": "Bangla",
       "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/channel-i.png",
       "url": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8"
-    },
-    {
-      "name": "Deepto TV",
-      "group": "Bangla",
-      "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/deepto-tv.png",
-      "url": "https://tvsen5.aynaott.com/tK2BNdfsdfsdf/index.m3u8"
     },
     {
       "name": "Desh TV",
@@ -224,12 +218,6 @@
       "url": "http://181.78.197.59:8000/play/a07z/index.m3u8"
     },
     {
-      "name": "Eurosport",
-      "group": "Sports",
-      "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/eurosport.png",
-      "url": "http://103.253.74.210:7070/stream/122/index.m3u8"
-    },
-    {
       "name": "PTV Sports",
       "group": "Sports",
       "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ptv-sports.png",
@@ -240,18 +228,6 @@
       "group": "Sports",
       "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/star-sports-1-hindi.png",
       "url": "https://starsportshindiii.pages.dev/index.m3u8"
-    },
-    {
-      "name": "Colors Bangla",
-      "group": "Indian Bangla",
-      "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/colors-bangla.png",
-      "url": "https://livetv.shamon-cable.net:8443/Colors-bangla/index.m3u8"
-    },
-    {
-      "name": "Jalsha Movies",
-      "group": "Indian Bangla",
-      "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/jalsha-movies.png",
-      "url": "https://livetv.shamon-cable.net:8443/Jalsha-Movies/index.m3u8"
     },
     {
       "name": "Star Jalsha",
@@ -896,12 +872,6 @@
       "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8"
     },
     {
-      "name": "Dangal 2",
-      "group": "Movies",
-      "logo": "",
-      "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8"
-    },
-    {
       "name": "EPIX TV",
       "group": "Movies",
       "logo": "",
@@ -1014,12 +984,6 @@
       "group": "Music",
       "logo": "",
       "url": "https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8"
-    },
-    {
-      "name": "B4U Kadak",
-      "group": "Music",
-      "logo": "",
-      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
     },
     {
       "name": "Dhoom Music",
@@ -1152,12 +1116,6 @@
       "group": "News",
       "logo": "",
       "url": "https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8"
-    },
-    {
-      "name": "Bharat Samachar",
-      "group": "News",
-      "logo": "",
-      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8"
     },
     {
       "name": "Bloomberg TV",
