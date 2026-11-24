@@ -1,5 +1,5 @@
 {
-  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24, live-verified; 25 candidates failed/403/404/timeout and were excluded, no duplicates).",
+  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates).",
   "channels": [
     {
       "name": "Ananda TV",
@@ -498,6 +498,1032 @@
       "group": "Documentary",
       "logo": "https://imglink.cc/cdn/eEZmseF3Tb.jpg",
       "url": "https://wildearth-plex.amagi.tv/master.m3u8"
+    },
+    {
+      "name": "Amar Bangla Digital",
+      "group": "Bangla",
+      "logo": "",
+      "url": "http://115.187.41.216:8080/hls/amardigital/index.m3u8"
+    },
+    {
+      "name": "BTV Chattogram",
+      "group": "Bangla",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/BTV-logo-new-2025.png/330px-BTV-logo-new-2025.png",
+      "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8"
+    },
+    {
+      "name": "Channel 24",
+      "group": "Bangla",
+      "logo": "https://backoffice.channel24bd.tv/media/common/logo-fb-pages.png",
+      "url": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8"
+    },
+    {
+      "name": "Deshi TV",
+      "group": "Bangla",
+      "logo": "https://i.imgur.com/PzqzgMm.png",
+      "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
+    },
+    {
+      "name": "Enter TV",
+      "group": "Bangla",
+      "logo": "https://i.postimg.cc/g06jByt1/entertv.jpg",
+      "url": "https://live1.entertv.com.bd/entertv/index.fmp4.m3u8"
+    },
+    {
+      "name": "Khushboo Bangla",
+      "group": "Bangla",
+      "logo": "https://limon-iptv-image.vercel.app/IN-BD/Khushboo-Bangla.png",
+      "url": "https://mumt01.tangotv.in/O5aw8Zn3KHUSHBOOTVBANGLA/index.m3u8"
+    },
+    {
+      "name": "Mon Bangla",
+      "group": "Bangla",
+      "logo": "",
+      "url": "http://115.187.41.216:8080/hls/montvbangla/index.m3u8"
+    },
+    {
+      "name": "NTV Europe",
+      "group": "Bangla",
+      "logo": "",
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8"
+    },
+    {
+      "name": "Peace TV Bangla",
+      "group": "Bangla",
+      "logo": "https://i.imgur.com/1ztVXUi.png",
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
+    },
+    {
+      "name": "Rajdhani TV",
+      "group": "Bangla",
+      "logo": "https://i.imgur.com/MBm2gPz.jpeg",
+      "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8"
+    },
+    {
+      "name": "Ruposhi Bangla",
+      "group": "Bangla",
+      "logo": "",
+      "url": "https://mumt05.tangotv.in/87NeALx2RUPASIBANGLA/index.m3u8"
+    },
+    {
+      "name": "3ABN Kids",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/3abnkids/index.m3u8"
+    },
+    {
+      "name": "Animax Asia India",
+      "group": "Cartoon",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png",
+      "url": "https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8"
+    },
+    {
+      "name": "Baby Shark TV",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8"
+    },
+    {
+      "name": "Dios Te Ve Kids",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://s.emisoras.tv:8081/diostevekids/index.m3u8"
+    },
+    {
+      "name": "Discovery Family",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8"
+    },
+    {
+      "name": "Disney Jr.",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "http://190.93.224.42/DISNEY-JR/index.m3u8"
+    },
+    {
+      "name": "Duronto TV",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    },
+    {
+      "name": "Epic Kids Digital",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8"
+    },
+    {
+      "name": "Green Gold TV",
+      "group": "Cartoon",
+      "logo": "https://i.imgur.com/UEg6mJd.jpg",
+      "url": "https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8"
+    },
+    {
+      "name": "Kids TV",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8"
+    },
+    {
+      "name": "Moonbug Kids",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://dq2a9ghraf7sw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zxq18dopv0o6q/Moonbug.m3u8"
+    },
+    {
+      "name": "PBS Kids",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
+    },
+    {
+      "name": "TVC Arabic Kids",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/TVCArabicKids/index.m3u8"
+    },
+    {
+      "name": "TVCARiB Kids & Teens",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8"
+    },
+    {
+      "name": "Toon Goggles",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://d1eg24xrsfr6kv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4b1bzxkt1uzo-prod/tg/tg/tg.m3u8"
+    },
+    {
+      "name": "Toon Goggles Junior",
+      "group": "Cartoon",
+      "logo": "",
+      "url": "https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8"
+    },
+    {
+      "name": "Animal Planet",
+      "group": "Documentary",
+      "logo": "",
+      "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8"
+    },
+    {
+      "name": "Autentic History",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8"
+    },
+    {
+      "name": "CGTN Documentary",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8"
+    },
+    {
+      "name": "Documentary+ USA",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8"
+    },
+    {
+      "name": "HISTORY TV",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/np3JstRE/index.m3u8"
+    },
+    {
+      "name": "History",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://n18syndication.akamaized.net/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/master.m3u8"
+    },
+    {
+      "name": "History & Warfare Now",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://d1nzda2a2b3swt.cloudfront.net/History_Warfare_Now.m3u8"
+    },
+    {
+      "name": "History Hit",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://ldsaaaaaa-timeline-samsung-uk-azlgu.amagi.tv/ts-eu-w1-n2/playlist/ldsAAAAAA-timeline-samsung-uk/playlist.m3u8"
+    },
+    {
+      "name": "RT Documentary",
+      "group": "Documentary",
+      "logo": "",
+      "url": "http://rt-esp.rttv.com/live/rtesp/playlist_800Kb.m3u8"
+    },
+    {
+      "name": "TRAVEL XP",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8"
+    },
+    {
+      "name": "Travel Channel",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/sFwCR6Fu/index.m3u8"
+    },
+    {
+      "name": "Wild TV",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8"
+    },
+    {
+      "name": "World War TV",
+      "group": "Documentary",
+      "logo": "",
+      "url": "https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8"
+    },
+    {
+      "name": "AMC",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/amc/index.m3u8"
+    },
+    {
+      "name": "CMAC TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8"
+    },
+    {
+      "name": "COMEDY CENTRAL",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8"
+    },
+    {
+      "name": "COOKING TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/s2FwmdbM/index.m3u8"
+    },
+    {
+      "name": "FX TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/jTqkTE8W/index.m3u8"
+    },
+    {
+      "name": "Food Network",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/7hm4TfVp/index.m3u8"
+    },
+    {
+      "name": "HGTV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/Ge23xfY5/index.m3u8"
+    },
+    {
+      "name": "LAFF TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8"
+    },
+    {
+      "name": "Manoranjan TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8"
+    },
+    {
+      "name": "RDS Social TV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8"
+    },
+    {
+      "name": "TBS",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/tbs/index.m3u8"
+    },
+    {
+      "name": "TheQ",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8"
+    },
+    {
+      "name": "YTV",
+      "group": "Entertainment",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/uYpFg3RV/index.m3u8"
+    },
+    {
+      "name": "&TV",
+      "group": "Indian",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%26TV_2025.svg/330px-%26TV_2025.svg.png",
+      "url": "https://3f56f997.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9BbmRUVl9ITFM/playlist.m3u8"
+    },
+    {
+      "name": "Colors",
+      "group": "Indian",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/india/colors-in.png",
+      "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8"
+    },
+    {
+      "name": "Star Bharat",
+      "group": "Indian",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/india/star-bharat-in.png",
+      "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8"
+    },
+    {
+      "name": "Star Plus HD",
+      "group": "Indian",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/india/star-plus-hd-in.png",
+      "url": "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8"
+    },
+    {
+      "name": "DD Bangla",
+      "group": "Indian Bangla",
+      "logo": "",
+      "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8"
+    },
+    {
+      "name": "kolkata TV",
+      "group": "Indian Bangla",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/kolkatatv/index.m3u8"
+    },
+    {
+      "name": "24 Hour Free Movies",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8"
+    },
+    {
+      "name": "Action Hollywood",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8"
+    },
+    {
+      "name": "Bhojpuri Cinema",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8"
+    },
+    {
+      "name": "Dangal",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8"
+    },
+    {
+      "name": "Dangal 2",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8"
+    },
+    {
+      "name": "EPIX TV",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8"
+    },
+    {
+      "name": "Ekamra Cinema",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://live.ekamraott.com/cynema/cynema/index.m3u8"
+    },
+    {
+      "name": "GREAT! movies",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8"
+    },
+    {
+      "name": "Goldmines",
+      "group": "Movies",
+      "logo": "https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540",
+      "url": "https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8"
+    },
+    {
+      "name": "Goldmines Bollywood",
+      "group": "Movies",
+      "logo": "https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540",
+      "url": "https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "name": "Goldmines Movies",
+      "group": "Movies",
+      "logo": "https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540",
+      "url": "https://cdn.pishow.tv/ott/live/1461/master.m3u8"
+    },
+    {
+      "name": "HBO 2",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/u3NjUrny/index.m3u8"
+    },
+    {
+      "name": "MBC Bollywood",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8"
+    },
+    {
+      "name": "Manoranjan Movies",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8"
+    },
+    {
+      "name": "Movies Thriller",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8"
+    },
+    {
+      "name": "Mytime Movie",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8"
+    },
+    {
+      "name": "Public Movies",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8"
+    },
+    {
+      "name": "Roja Movies",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8"
+    },
+    {
+      "name": "Shubh Cinema TV",
+      "group": "Movies",
+      "logo": "",
+      "url": "https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8"
+    },
+    {
+      "name": "Zee Cinema",
+      "group": "Movies",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/india/zee-cinema-in.png",
+      "url": "https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8"
+    },
+    {
+      "name": "7S Music",
+      "group": "Music",
+      "logo": "https://i.imgur.com/zDiIhdN.png",
+      "url": "https://cdn.pishow.tv/ott/live/1257/master.m3u8"
+    },
+    {
+      "name": "7X Music",
+      "group": "Music",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png",
+      "url": "https://7xshreeshyam.akamaized.net/7XPunjabi/index.m3u8"
+    },
+    {
+      "name": "8XM",
+      "group": "Music",
+      "logo": "https://i.postimg.cc/4ythzNmp/KLrf-KRn.png",
+      "url": "https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8"
+    },
+    {
+      "name": "AXS",
+      "group": "Music",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8"
+    },
+    {
+      "name": "B4U Kadak",
+      "group": "Music",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
+    },
+    {
+      "name": "Dhoom Music",
+      "group": "Music",
+      "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png",
+      "url": "https://fta.ektv.in/live/378/master.m3u8"
+    },
+    {
+      "name": "Dhoom Music Bangla",
+      "group": "Music",
+      "logo": "",
+      "url": "https://mumt06.tangotv.in/qYyB8fXVDHOOMMUSIC/index.m3u8"
+    },
+    {
+      "name": "ETV Music",
+      "group": "Music",
+      "logo": "",
+      "url": "https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8"
+    },
+    {
+      "name": "Hindi Hits",
+      "group": "Music",
+      "logo": "https://i.ibb.co/SwWjbPSv/hindi-hits-hd.png",
+      "url": "https://samitaorigin.tangotv.in/HINDIHITS/SAMITAORIGIN/index.m3u8"
+    },
+    {
+      "name": "MTV",
+      "group": "Music",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/mtv/index.m3u8"
+    },
+    {
+      "name": "MUSIC INDIA",
+      "group": "Music",
+      "logo": "https://limon-iptv-image.vercel.app/Music/Music-India.png",
+      "url": "https://cdn.pishow.tv/ott/live/226/master.m3u8"
+    },
+    {
+      "name": "Mastiii",
+      "group": "Music",
+      "logo": "",
+      "url": "https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8"
+    },
+    {
+      "name": "Only Music",
+      "group": "Music",
+      "logo": "",
+      "url": "https://mumbai-edge.smartplaytv.in/OnlyMusic/index.m3u8"
+    },
+    {
+      "name": "Power Turk",
+      "group": "Music",
+      "logo": "",
+      "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8"
+    },
+    {
+      "name": "Public Music",
+      "group": "Music",
+      "logo": "",
+      "url": "https://mumt04.tangotv.in/m18aqlK4PUBLICMUSIC/index.m3u8"
+    },
+    {
+      "name": "Punjabi Hits",
+      "group": "Music",
+      "logo": "",
+      "url": "https://stream.ottlive.co.in/punjabihits/index.m3u8"
+    },
+    {
+      "name": "R Plus Gold",
+      "group": "Music",
+      "logo": "",
+      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8"
+    },
+    {
+      "name": "Raj Music Telugu",
+      "group": "Music",
+      "logo": "",
+      "url": "https://mumt07.tangotv.in/zHjX9OFlRAJMUSIXTELUGU/index.m3u8"
+    },
+    {
+      "name": "Sangeet Bhojpuri",
+      "group": "Music",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Sangeet_Bhojpuri.jpg/330px-Sangeet_Bhojpuri.jpg",
+      "url": "https://cdn.pishow.tv/ott/live/1293/master.m3u8"
+    },
+    {
+      "name": "Tabbar Hits",
+      "group": "Music",
+      "logo": "",
+      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e11b0319-52e8-4190-ab03-3931cc68eac9/index.m3u8"
+    },
+    {
+      "name": "9 Plus News",
+      "group": "News",
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png",
+      "url": "https://stream.ottlive.co.in/9plusnews/index.m3u8"
+    },
+    {
+      "name": "ABC News",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/ABCxzdsdNews/index.m3u8"
+    },
+    {
+      "name": "ABN",
+      "group": "News",
+      "logo": "",
+      "url": "https://mediaserver.abnvideos.com/streams/abnurdu.m3u8"
+    },
+    {
+      "name": "Accu Weather",
+      "group": "News",
+      "logo": "",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8"
+    },
+    {
+      "name": "Aljazeera News",
+      "group": "News",
+      "logo": "",
+      "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
+    },
+    {
+      "name": "Argus News",
+      "group": "News",
+      "logo": "",
+      "url": "https://stream.ottlive.co.in/argus/index.m3u8"
+    },
+    {
+      "name": "BBC News",
+      "group": "News",
+      "logo": "",
+      "url": "https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8"
+    },
+    {
+      "name": "Bharat Samachar",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8"
+    },
+    {
+      "name": "Bloomberg TV",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/bloombergtv/index.m3u8"
+    },
+    {
+      "name": "CBS TV",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/34fJSjZP/index.m3u8"
+    },
+    {
+      "name": "CNBC TV",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/cnbc/index.m3u8"
+    },
+    {
+      "name": "CP 24",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/cp24/index.m3u8"
+    },
+    {
+      "name": "DD News",
+      "group": "News",
+      "logo": "",
+      "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8"
+    },
+    {
+      "name": "Fox 5",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/fox5/index.m3u8"
+    },
+    {
+      "name": "Fox Business",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8"
+    },
+    {
+      "name": "Fox News",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8"
+    },
+    {
+      "name": "Fox Weather",
+      "group": "News",
+      "logo": "",
+      "url": "https://247wlive.foxweather.com/stream/index.m3u8"
+    },
+    {
+      "name": "India Today",
+      "group": "News",
+      "logo": "",
+      "url": "https://feeds.intoday.in/hltapps/api/master.m3u8"
+    },
+    {
+      "name": "MSNBC News",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/msnbc/index.m3u8"
+    },
+    {
+      "name": "NDTV NEWS",
+      "group": "News",
+      "logo": "",
+      "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8"
+    },
+    {
+      "name": "News 21 Bangla TV",
+      "group": "News",
+      "logo": "",
+      "url": "http://103.190.133.68:1935/news21live/live/playlist.m3u8"
+    },
+    {
+      "name": "News18 Bangla News",
+      "group": "News",
+      "logo": "",
+      "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8"
+    },
+    {
+      "name": "OAN",
+      "group": "News",
+      "logo": "",
+      "url": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8"
+    },
+    {
+      "name": "Pix 11",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/GPHeknR5/index.m3u8"
+    },
+    {
+      "name": "Republic TV Bharat",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8"
+    },
+    {
+      "name": "Sadhna Prime News",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/P2hjvFHV/index.m3u8"
+    },
+    {
+      "name": "Sky News",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen5.aynaott.com/skynews/index.m3u8"
+    },
+    {
+      "name": "Sky News Weather",
+      "group": "News",
+      "logo": "",
+      "url": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8"
+    },
+    {
+      "name": "Sudarshan News",
+      "group": "News",
+      "logo": "",
+      "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8"
+    },
+    {
+      "name": "Taaza TV",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8"
+    },
+    {
+      "name": "USA TV",
+      "group": "News",
+      "logo": "",
+      "url": "https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8"
+    },
+    {
+      "name": "Wion",
+      "group": "News",
+      "logo": "",
+      "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8"
+    },
+    {
+      "name": "A Spor",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/ZhkZzLf.png",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+    },
+    {
+      "name": "Al Iraqia Sport",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/DrrlxTO.png",
+      "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8"
+    },
+    {
+      "name": "Bahrain Sports 1",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/fBpLsbC.png",
+      "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
+    },
+    {
+      "name": "Bahrain Sports 2",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/ZkuZmIo.png",
+      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8"
+    },
+    {
+      "name": "Cricket Gold",
+      "group": "Sports",
+      "logo": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png",
+      "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8"
+    },
+    {
+      "name": "ESPN8 The Ocho",
+      "group": "Sports",
+      "logo": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",
+      "url": "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8"
+    },
+    {
+      "name": "FIFA+",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8"
+    },
+    {
+      "name": "FOX Sports",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://45.5.118.152:8000/play/a08x/index.m3u8"
+    },
+    {
+      "name": "Fox Sports 1",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8"
+    },
+    {
+      "name": "Fubo Sports Network",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/qFNRJLb.png",
+      "url": "https://dnf08l6u6uxnz.cloudfront.net/master.m3u8"
+    },
+    {
+      "name": "Fuel TV",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/I8mviBy.png",
+      "url": "https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8"
+    },
+    {
+      "name": "KTV Sport Plus",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
+    },
+    {
+      "name": "Marquee Sports Network",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8"
+    },
+    {
+      "name": "NBC Sports NOW",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/EzNf2Yx.png",
+      "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008"
+    },
+    {
+      "name": "NFL Network",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://tvsen6.aynaott.com/nfl/index.m3u8"
+    },
+    {
+      "name": "Oman Sports TV HD",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8"
+    },
+    {
+      "name": "PGA Tour",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/J0TY9dG.png",
+      "url": "https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8"
+    },
+    {
+      "name": "Rally TV",
+      "group": "Sports",
+      "logo": "https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png",
+      "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8"
+    },
+    {
+      "name": "Real Madrid TV",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8"
+    },
+    {
+      "name": "Red Bull TV",
+      "group": "Sports",
+      "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+      "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8"
+    },
+    {
+      "name": "Russia Football 1 HD",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://cdntv.online/low/9mlxywika2/55.m3u8"
+    },
+    {
+      "name": "Russia Football 2 HD",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://cdntv.online/low/9mlxywika2/56.m3u8"
+    },
+    {
+      "name": "Russia Football 3 HD",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://cdntv.online/low/9mlxywika2/57.m3u8"
+    },
+    {
+      "name": "Setenta Sport 1",
+      "group": "Sports",
+      "logo": "",
+      "url": "http://cdntv.online/low/9mlxywika2/1021.m3u8"
+    },
+    {
+      "name": "Sony Sports Ten 3 Hindi",
+      "group": "Sports",
+      "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540",
+      "url": "https://r2.amml.in/sony-ten-3-hd/live.m3u8"
+    },
+    {
+      "name": "Sports First TV",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8"
+    },
+    {
+      "name": "Sports Fishing TV",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8"
+    },
+    {
+      "name": "Stadium",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/SnZOiER.png",
+      "url": "https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8"
+    },
+    {
+      "name": "Swerve Combat",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8"
+    },
+    {
+      "name": "T Sports HD",
+      "group": "Sports",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/330px-T_Sports_logo.svg.png",
+      "url": "https://tvsen5.aynaott.com/TnMn5kZz8/index.m3u8"
+    },
+    {
+      "name": "TNT Sport 1",
+      "group": "Sports",
+      "logo": "",
+      "url": "https://tvsen5.aynaott.com/asdfadsf/index.m3u8"
+    },
+    {
+      "name": "TUDN",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/oT5CAvd.png",
+      "url": "https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8"
+    },
+    {
+      "name": "Tennis Channel",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/tsljAnY.png",
+      "url": "https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8"
+    },
+    {
+      "name": "Tennis Channel 2",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/tsljAnY.png",
+      "url": "https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8"
+    },
+    {
+      "name": "Trace Sport Stars",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/FabFP5A.png",
+      "url": "https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8"
+    },
+    {
+      "name": "TyC Sports",
+      "group": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",
+      "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8"
+    },
+    {
+      "name": "Willow",
+      "group": "Sports",
+      "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png",
+      "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8"
+    },
+    {
+      "name": "beIN SPORTS XTRA",
+      "group": "Sports",
+      "logo": "https://i.ibb.co/HT49GPmB/XTRA-2.png",
+      "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8"
+    },
+    {
+      "name": "beIN Sports USA",
+      "group": "Sports",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
+      "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8"
+    },
+    {
+      "name": "beIN Sports XTRA Español",
+      "group": "Sports",
+      "logo": "https://i.imgur.com/V562tpO.png",
+      "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8"
     }
   ]
 }
