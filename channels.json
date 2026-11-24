@@ -1,6 +1,54 @@
 {
-  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 7 dead (Kids TV revived on recheck) (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe). 2026-11-24 20:01 rslivego.pages.dev sources (Tapmad/Sports/AynaOTT/Bangladesh playlists): 163 candidates live-verified sequentially, 51 new added (STAR SPORTS 1 HD, STAR SPORTS 2 HD, STAR SPORTS SELECT 1 HD, STAR SPORTS SELECT 2 HD, STAR SPORTS 3, SONY SPORTS TEN 1 HD, SONY SPORTS TEN 2 HD, SONY SPORTS TEN 3 HD, SONY SPORTS TEN 5 HD, EUROSPORT HD, TEN CRICKET, CRICBUZZ, WILLOW 2, SKY SPORTS CRICKET, TNT SPORTS 3 HD, BEIN SPORTS 1 HD, BEIN SPORTS 3 HD, BEIN SPORTS ARABIC HD, BEIN SPORTS EXTRA HD, UNITE8 SPORTS 1 HD, SONY MAX HD, &PICTURES HD, STAR MOVIES HD, SONY YAY, POGO, NICK BANGLA, DISCOVERY BANGLA, Deepto TV, Iqra Bangla, MADANI TV, Bharat Samachar, CNN, DW News, Khushboo, Network 10, B4U Kadak, Dangal 2, Discovery Turbo, Nat Geo TV, TLC HD, Deen TV, Discover Pikstan, Hum TV, Islam TV, Azan TV, BTL TV (Netherlands), Ekushey TV, Jalsha Movies, Matribhumi TV, NAN TV, Probashi TV News); 10 duplicates skipped; 80 dead excluded; 20 Ayna tvsen7 links unverified (not added); Tapmad live matches all 403 dead.",
+  "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 7 dead (Kids TV revived on recheck) (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe). 2026-11-24 20:01 rslivego.pages.dev sources (Tapmad/Sports/AynaOTT/Bangladesh playlists): 163 candidates live-verified sequentially, 51 new added (STAR SPORTS 1 HD, STAR SPORTS 2 HD, STAR SPORTS SELECT 1 HD, STAR SPORTS SELECT 2 HD, STAR SPORTS 3, SONY SPORTS TEN 1 HD, SONY SPORTS TEN 2 HD, SONY SPORTS TEN 3 HD, SONY SPORTS TEN 5 HD, EUROSPORT HD, TEN CRICKET, CRICBUZZ, WILLOW 2, SKY SPORTS CRICKET, TNT SPORTS 3 HD, BEIN SPORTS 1 HD, BEIN SPORTS 3 HD, BEIN SPORTS ARABIC HD, BEIN SPORTS EXTRA HD, UNITE8 SPORTS 1 HD, SONY MAX HD, &PICTURES HD, STAR MOVIES HD, SONY YAY, POGO, NICK BANGLA, DISCOVERY BANGLA, Deepto TV, Iqra Bangla, MADANI TV, Bharat Samachar, CNN, DW News, Khushboo, Network 10, B4U Kadak, Dangal 2, Discovery Turbo, Nat Geo TV, TLC HD, Deen TV, Discover Pikstan, Hum TV, Islam TV, Azan TV, BTL TV (Netherlands), Ekushey TV, Jalsha Movies, Matribhumi TV, NAN TV, Probashi TV News); 10 duplicates skipped; 80 dead excluded; 20 Ayna tvsen7 links unverified (not added); Tapmad live matches all 403 dead. 2026-11-24 23:52 teleghor.online /api/events: 8 live matches added as Live Events (Server 1 plain m3u8, HTTP 200 + #EXTM3U verified): Galatasaray vs Aston Villa Live, Bodo Glimt vs LASK Linz Live, CLB Al Ahli vs Al Qadisiya Live, Al Seeb vs CLB AI Shorta Live, Zenit vs CLB Krylya Sovetov Live, Besiktas Basketball vs Paris Basketball Live, Sao Đỏ Beograd vs Virtus Pallacanestro Bologna Live, Al-Nassr vs CLB Al Sadd Live.",
   "channels": [
+    {
+      "name": "Galatasaray vs Aston Villa Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/c25f0689a67120aa381d434bbc896050.png!w80",
+      "url": "https://live05.wecile.app/live/02456966.m3u8"
+    },
+    {
+      "name": "Bodo Glimt vs LASK Linz Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/98854ab97eadf3d2c7c6d657ad99df96.png!w80",
+      "url": "https://live05.wecile.app/live/99121525.m3u8"
+    },
+    {
+      "name": "CLB Al Ahli vs Al Qadisiya Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/05e87b1dbb904915a4a97fc095b73d20.png!w80",
+      "url": "https://live05.wecile.app/live/33982309.m3u8"
+    },
+    {
+      "name": "Al Seeb vs CLB AI Shorta Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/99436fc30d359790afbd11fe602a5a45.png!w80",
+      "url": "https://live05.wecile.app/live/07428422.m3u8"
+    },
+    {
+      "name": "Zenit vs CLB Krylya Sovetov Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/19d5361bfdffa4bfc2f936cbb65fd317.png!w80",
+      "url": "https://live05.wecile.app/live/88508431.m3u8"
+    },
+    {
+      "name": "Besiktas Basketball vs Paris Basketball Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/basketball/team/89aedb476d2e17575a159bfdca4886e3.png!w80",
+      "url": "https://live05.wecile.app/live/56998120.m3u8"
+    },
+    {
+      "name": "Sao Đỏ Beograd vs Virtus Pallacanestro Bologna Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/basketball/team/c39da666a430eeb95c2dd0838b267d77.jpg!w80",
+      "url": "https://live05.wecile.app/live/19919577.m3u8"
+    },
+    {
+      "name": "Al-Nassr vs CLB Al Sadd Live",
+      "group": "Live Event",
+      "logo": "https://img.cltvap.cc/football/team/0d9975f7e846a1ecb099f4cd62d1b8f7.png!w80",
+      "url": "https://live05.wecile.app/live/75915087.m3u8"
+    },
     {
       "name": "BD vs SA Live1",
       "group": "Live Event",
