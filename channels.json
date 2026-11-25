@@ -1,9 +1,9 @@
 [
   {
-    "name": "Melbourne Victory vs Thể Công - Viettel Live",
+    "name": "Giravanz Kitakyushu vs Kanazawa Live",
     "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/04230721124ae33d7fb527413b54106f.png!w80",
-    "url": "https://live05.wecile.app/live/14830711.m3u8"
+    "logo": "https://img.cltvap.cc/football/team/fefa11f94d0efff34a0f98ee4440a34b.png!w80",
+    "url": "https://live05.wecile.app/live/18812304.m3u8"
   },
   {
     "name": "Kansas State vs Gonzaga Live",
@@ -22,12 +22,6 @@
     "group": "Live Event",
     "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png",
     "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
-  },
-  {
-    "name": "BD vs SA Live3",
-    "group": "Live Event",
-    "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png",
-    "url": "https://tvsen7.aynaott.com/rEBp38Ax/tracks-v1a1/mono.ts.m3u8"
   },
   {
     "name": "Ananda TV",
@@ -132,12 +126,6 @@
     "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8"
   },
   {
-    "name": "Independent TV",
-    "group": "News",
-    "logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/330px-Independent_Television_Logo.svg.png",
-    "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/tracks-v1a1/mono.ts.m3u8"
-  },
-  {
     "name": "Maasranga TV",
     "group": "Bangla",
     "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/maasranga-tv.png",
@@ -226,12 +214,6 @@
     "group": "News",
     "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/somoy-tv.png",
     "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8"
-  },
-  {
-    "name": "A Sports",
-    "group": "Sports",
-    "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/a-sports-65a3e1d8fd.png",
-    "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8"
   },
   {
     "name": "DD Sports",
@@ -471,12 +453,6 @@
     "name": "G Series Drama",
     "group": "Entertainment",
     "logo": "https://imglink.cc/cdn/1_dUKmt1Oe.png",
-    "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
-  },
-  {
-    "name": "G Series Drama",
-    "group": "Entertainment",
-    "logo": "https://imglink.cc/cdn/1_dUKmt1Oe.png",
     "url": "https://vods2.aynaott.com/gseriesDrama/index.m3u8"
   },
   {
@@ -514,12 +490,6 @@
     "group": "Cartoon",
     "logo": "https://i.ibb.co.com/XfqV4B56/png-transparent-mr-bean-illustration-youtube-coloring-book-character-cartoon-mr-bean-television-chil.png",
     "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
-  },
-  {
-    "name": "Cartoon Network",
-    "group": "Cartoon",
-    "logo": "https://imglink.cc/cdn/48br-Lpr61.png",
-    "url": "https://tvsen5.aynaott.com/cartoonnetwork/tracks-v1a1/mono.ts.m3u8"
   },
   {
     "name": "Adventure Earth",
