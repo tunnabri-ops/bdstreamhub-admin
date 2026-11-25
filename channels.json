@@ -6,12 +6,6 @@
     "url": "https://live05.wecile.app/live/14830711.m3u8"
   },
   {
-    "name": "Kansas State vs Gonzaga Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/basketball/team/0d1160c94e4741bebc26b0ae59731b7d.png!w80",
-    "url": "https://live05.wecile.app/live/90865415.m3u8"
-  },
-  {
     "name": "BD vs SA Live1",
     "group": "Live Event",
     "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png",
@@ -192,12 +186,6 @@
     "url": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8"
   },
   {
-    "name": "ATN News",
-    "group": "News",
-    "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/atn-news-e0442addb4.png",
-    "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8"
-  },
-  {
     "name": "DBC News",
     "group": "News",
     "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dbc-news.png",
@@ -274,12 +262,6 @@
     "group": "Indian",
     "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/repaired-zee-tv-b659c984ad.png",
     "url": "https://d47ddb99.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8"
-  },
-  {
-    "name": "Channel S",
-    "group": "Bangla",
-    "logo": "https://i.postimg.cc/L6MvsdFm/20240822-231309.png",
-    "url": "https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8"
   },
   {
     "name": "SRK",
@@ -816,12 +798,6 @@
     "url": "https://tvsen3.aynaott.com/UC6a8nsf/index.m3u8"
   },
   {
-    "name": "Manoranjan TV",
-    "group": "Entertainment",
-    "logo": "",
-    "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8"
-  },
-  {
     "name": "RDS Social TV",
     "group": "Entertainment",
     "logo": "",
@@ -1098,12 +1074,6 @@
     "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e11b0319-52e8-4190-ab03-3931cc68eac9/index.m3u8"
   },
   {
-    "name": "9 Plus News",
-    "group": "News",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png",
-    "url": "https://stream.ottlive.co.in/9plusnews/index.m3u8"
-  },
-  {
     "name": "ABC News",
     "group": "News",
     "logo": "",
@@ -1236,12 +1206,6 @@
     "url": "https://tvsen3.aynaott.com/GPHeknR5/index.m3u8"
   },
   {
-    "name": "Sadhna Prime News",
-    "group": "News",
-    "logo": "",
-    "url": "https://tvsen3.aynaott.com/P2hjvFHV/index.m3u8"
-  },
-  {
     "name": "Sky News",
     "group": "News",
     "logo": "",
@@ -1258,12 +1222,6 @@
     "group": "News",
     "logo": "",
     "url": "https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8"
-  },
-  {
-    "name": "Taaza TV",
-    "group": "News",
-    "logo": "",
-    "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8"
   },
   {
     "name": "USA TV",
@@ -1518,12 +1476,6 @@
     "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/5.m3u8"
   },
   {
-    "name": "STAR SPORTS 2 HD",
-    "group": "Sports",
-    "logo": "https://i.postimg.cc/jjy7Q80w/Star-Sports-2.jpg",
-    "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/6.m3u8"
-  },
-  {
     "name": "STAR SPORTS SELECT 1 HD",
     "group": "Sports",
     "logo": "https://i.postimg.cc/85sw40LV/Star-Sports-Select-1.jpg",
@@ -1704,12 +1656,6 @@
     "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
   },
   {
-    "name": "Khushboo",
-    "group": "Indian Bangla",
-    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1544964341f4ed337430057b9634b1ad_playmist_khushboo_400x400.jpg",
-    "url": "https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8"
-  },
-  {
     "name": "Network 10",
     "group": "Indian Bangla",
     "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_35e8912e73d3759eb0f9e21a815d1a80_playmist_network_10_400x400.jpg",
@@ -1794,12 +1740,6 @@
     "url": "http://live.playmax.live/matribhumi/index.m3u8"
   },
   {
-    "name": "NAN TV",
-    "group": "News",
-    "logo": "https://www.jagobd.com/wp-content/uploads/2019/11/NAN-TV-Logo-02.png",
-    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8"
-  },
-  {
     "name": "Probashi TV News",
     "group": "News",
     "logo": "https://i.imgur.com/7oTsfQ4.png",
@@ -1864,12 +1804,6 @@
     "group": "Music",
     "logo": "https://i.postimg.cc/hPFhzrTG/20250529_121624.png",
     "url": "https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8"
-  },
-  {
-    "name": "Sananda Tv",
-    "group": "Entertainment",
-    "logo": "",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/sanandatv.stream/playlist.m3u8"
   },
   {
     "name": "My TV",
