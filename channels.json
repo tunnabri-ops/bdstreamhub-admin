@@ -1,33 +1,63 @@
 [
   {
-    "name": "CLB Persib Bandung vs CLB Seoul Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/b2004093bf25a5a8d1768970d6e49d71.png!w80",
-    "url": "https://live05.wecile.app/live/33982309.m3u8"
+    "name": "CLB Nasaf Qarshi vs Al Khaldiya Live",
+    "url": "https://live05.wecile.app/live/14830711.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/bef3a45bcf56447c8acfb7b077820022.png!w80",
+    "group": "Live Event"
   },
   {
-    "name": "Bali United vs Barito Putera Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/09fe2ecf88f68970da755f8655d5da8a.png!w80",
-    "url": "https://live05.wecile.app/live/87547578.m3u8"
+    "name": "FK Makhachkala vs CLB Baltika Live",
+    "url": "https://live05.wecile.app/live/49572724.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/26cece8c2572a1d82b90fefc2c71e8ad.png!w80",
+    "group": "Live Event"
   },
   {
-    "name": "Radnicki Nis vs FK Zeleznicar Pancevo Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/794c52e40471e247cc8e50dc33841c1d.png!w80",
-    "url": "https://live05.wecile.app/live/75748097.m3u8"
+    "name": "Akhmat Grozny vs Krasnodar Live",
+    "url": "https://live05.wecile.app/live/88508431.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/dfb637acd761b88a27e200393e29319f.png!w80",
+    "group": "Live Event"
   },
   {
-    "name": "Uganda U17 vs New Caledonia U17 Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/81f7acabd411274fcf65ce2070ed568a.png!w80",
-    "url": "https://live05.wecile.app/live/49572724.m3u8"
+    "name": "Uruguay U17 vs France U17 Live",
+    "url": "https://live05.wecile.app/live/08552895.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/3068cfc254b9a77c7eac84c9565eeeab.png!w80",
+    "group": "Live Event"
   },
   {
-    "name": "Ecuador U17 vs South Korea U17 Live",
-    "group": "Live Event",
-    "logo": "https://img.cltvap.cc/football/team/4bcd83a98bc4ee323ec93c0f0e704d04.png!w80",
-    "url": "https://live05.wecile.app/live/88508431.m3u8"
+    "name": "Haiti U17 vs Saudi Arabia U17 Live",
+    "url": "https://live05.wecile.app/live/07808742.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/087bc7552322045ad94868390dce5b37.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Club Brugge U19 vs Liverpool U19 Live",
+    "url": "https://live05.wecile.app/live/16226575.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/2949f63aa1981975fdb031ffabd20eeb.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Greece U17 vs Qatar U17 Live",
+    "url": "https://live05.wecile.app/live/02456966.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/1da38e9fc1f765ffa964a0ab64c8d8fe.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Panama U17 vs Egypt U17 Live",
+    "url": "https://live05.wecile.app/live/75748097.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/a159b2e2c6b3cb7bf0e92eb43fe27bdd.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "El Gaish vs Modern Sport FC Live",
+    "url": "https://live05.wecile.app/live/18812304.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/bacc15441ed99eaad038d4ceb86751d6.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Paris Saint Germain U19 vs AS Roma U19 Live",
+    "url": "https://live05.wecile.app/live/07428422.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/a19104d7fe30a4a261411778eebba452.png!w80",
+    "group": "Live Event"
   },
   {
     "name": "Sporting CP U19 vs Manchester United U19 Live",
