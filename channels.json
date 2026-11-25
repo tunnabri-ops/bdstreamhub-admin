@@ -6,6 +6,12 @@
     "url": "https://live05.wecile.app/live/14830711.m3u8"
   },
   {
+    "name": "Melbourne Renegades Women vs Brisbane Heat Women Live",
+    "group": "Live Event",
+    "logo": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5b1a12ba-bd8a-405b-9844-70742776da84/6/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+    "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/8s0mwls1j6/out/v1/3af3f6a860de4f43b2867101e5a26cce/cenc.mpd"
+  },
+  {
     "name": "BD vs SA Live1",
     "group": "Live Event",
     "logo": "https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png",
@@ -2854,5 +2860,83 @@
     "group": "News",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_BANGLA/images/LOGO_HD/image.png",
     "url": "https://amg01106-amg01106c1-amgplt0747.playout.now3.amagi.tv/amg01106c1/hls.m3u8"
+  },
+  {
+    "name": "ESPN (United States) HD",
+    "group": "Sports",
+    "logo": "https://imgx.fubo.tv/station_logos/espn-hd_c.png",
+    "url": "http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8"
+  },
+  {
+    "name": "ESPN 2 (United States) HD",
+    "group": "Sports",
+    "logo": "https://i.imgur.com/00tsvjE.png",
+    "url": "http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8"
+  },
+  {
+    "name": "ESPNU HD",
+    "group": "Sports",
+    "logo": "https://i.imgur.com/HiBrysh.png",
+    "url": "http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8"
+  },
+  {
+    "name": "Eurosport 1",
+    "group": "Sports",
+    "logo": "https://i.imgur.com/olQJgm7.png",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8"
+  },
+  {
+    "name": "Eurosport 2",
+    "group": "Sports",
+    "logo": "https://i.imgur.com/f56dHgR.png",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8"
+  },
+  {
+    "name": "ZDF",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8"
+  },
+  {
+    "name": "Das Erste (ARD)",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
+  },
+  {
+    "name": "TF1",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8"
+  },
+  {
+    "name": "Rai 1",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rai_uno/live.livx/playlist.m3u8"
+  },
+  {
+    "name": "Willow Sports",
+    "group": "Sports",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/WillowSports.png",
+    "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8"
+  },
+  {
+    "name": "CCTV-5",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5"
+  },
+  {
+    "name": "CCTV-5+",
+    "group": "Sports",
+    "logo": "",
+    "url": "https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p"
+  },
+  {
+    "name": "BD vs SA Live1",
+    "group": "Live Event",
+    "logo": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.97eae418-93c7-40e2-b2d6-6a81327b83bc/5/BOXART-16X9/en-US._UR1920,1080_.jpeg",
+    "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/fhmmqyl8ck/out/v1/34dd0d9326ac481e816ff0573f59be3b/cenc.mpd"
   }
 ]
