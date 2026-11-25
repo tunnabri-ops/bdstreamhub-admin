@@ -1,7 +1,8 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fefa11f94d0efff34a0f98ee4440a34b.png!w80" group-title="Live Event",Giravanz Kitakyushu vs Kanazawa Live
-https://live05.wecile.app/live/18812304.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/04230721124ae33d7fb527413b54106f.png!w80" group-title="Live Event",Melbourne Victory vs Thể Công - Viettel Live
+https://live05.wecile.app/live/14830711.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/basketball/team/0d1160c94e4741bebc26b0ae59731b7d.png!w80" group-title="Live Event",Kansas State vs Gonzaga Live
 https://live05.wecile.app/live/90865415.m3u8
