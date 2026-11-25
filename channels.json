@@ -1,17 +1,17 @@
 {
- "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 7 dead (Kids TV revived on recheck) (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe). 2026-11-24 20:01 rslivego.pages.dev sources (Tapmad/Sports/AynaOTT/Bangladesh playlists): 163 candidates live-verified sequentially, 51 new added (STAR SPORTS 1 HD, STAR SPORTS 2 HD, STAR SPORTS SELECT 1 HD, STAR SPORTS SELECT 2 HD, STAR SPORTS 3, SONY SPORTS TEN 1 HD, SONY SPORTS TEN 2 HD, SONY SPORTS TEN 3 HD, SONY SPORTS TEN 5 HD, EUROSPORT HD, TEN CRICKET, CRICBUZZ, WILLOW 2, SKY SPORTS CRICKET, TNT SPORTS 3 HD, BEIN SPORTS 1 HD, BEIN SPORTS 3 HD, BEIN SPORTS ARABIC HD, BEIN SPORTS EXTRA HD, UNITE8 SPORTS 1 HD, SONY MAX HD, &PICTURES HD, STAR MOVIES HD, SONY YAY, POGO, NICK BANGLA, DISCOVERY BANGLA, Deepto TV, Iqra Bangla, MADANI TV, Bharat Samachar, CNN, DW News, Khushboo, Network 10, B4U Kadak, Dangal 2, Discovery Turbo, Nat Geo TV, TLC HD, Deen TV, Discover Pikstan, Hum TV, Islam TV, Azan TV, BTL TV (Netherlands), Ekushey TV, Jalsha Movies, Matribhumi TV, NAN TV, Probashi TV News); 10 duplicates skipped; 80 dead excluded; 20 Ayna tvsen7 links unverified (not added); Tapmad live matches all 403 dead. 2026-11-24 23:52 teleghor.online /api/events: 8 live matches added as Live Events (Server 1 plain m3u8, HTTP 200 + #EXTM3U verified): Galatasaray vs Aston Villa Live, Bodo Glimt vs LASK Linz Live, CLB Al Ahli vs Al Qadisiya Live, Al Seeb vs CLB AI Shorta Live, Zenit vs CLB Krylya Sovetov Live, Besiktas Basketball vs Paris Basketball Live, Sao Đỏ Beograd vs Virtus Pallacanestro Bologna Live, Al-Nassr vs CLB Al Sadd Live. 2026-11-25 00:37 live-event check: removed 3 ended teleghor matches (Shabab Al Ahli 1-5 Al Qadisiya FT, Al Seeb 2-0 Al Shorta FT, Zenit vs Krylya Sovetov — kicked off 22:30 Dhaka, finished by 00:37, no longer in teleghor /api/events LIVE list); 5 teleghor LIVE matches kept and re-verified HTTP 200 + #EXTM3U; BD vs SA Live1/2/3 kept (2nd Test Day 3 starts Nov 25, Willow TV links verified/kept per Ayna rule); pordax top-5 all stale/ended, nothing added. 2026-11-25 02:37 live-event check: removed ended Galatasaray vs Aston Villa and Al-Nassr vs Al Sadd (URL dead); renamed 3 reused streams to the matches now live on them (Chapecoense vs Palmeiras, Valencia vs Panathinaikos, Barcelona vs Fenerbahce); added 6 Champions League live matches from teleghor (Arsenal vs Dortmund, Man City vs Napoli, Real Madrid vs PSV, Como vs AEK, Feyenoord vs Porto, Slovan Bratislava vs Real Betis), all Server 1 URLs verified HTTP 200 + #EXTM3U. BD vs SA Test (Day 3 resumes today) kept. Pordax top matches stale (AUS v ENG 2nd T20I ended, Newcastle v Kashiwa ended) - nothing added from pordax. 2026-11-25 06:37 live-event check: removed CLB Chapecoense SC vs Palmeiras Live (ended, gone from teleghor API); added CLB Millonarios vs Bucaramanga Live and Purdue vs DePaul Live (teleghor Server 1, HTTP 200 + #EXTM3U verified); BD vs SA Live1/2/3 kept (2nd Test Day 3 resumes today, SA 494/7 lead 403 at stumps Day 2); pordax UCL top-7 all ended (UEFA finals confirmed) - none added.",
+ "note": "BDStreamHub Desktop channel list, edited from the admin panel. 42 original + 26 from teleghor.online (2026-11-24) + 15 from watchquidtv.blogspot.com source playlist (2026-11-24) + 171 from cs87998799/Bongo (pordax/Khusbu) and cs87998799/cstv (Toffee/AynaOTT) (2026-11-24, live-verified; candidates that failed verification were excluded, no duplicates). Live event added 2026-11-24: BD vs SA Live (Willow TV link, added per user request; returned HTTP 403 in browser/curl playback checks — verify in exe). BD vs SA Live link swapped 2026-11-24 18:53 to verified-working Willow TV 540p proxy link (HTTP 200 + #EXTM3U) per user request. BD vs SA Live link improved 2026-11-24 19:00 to direct Willow TV 1080p (CloudFront, HTTP 200 + #EXTM3U, no proxy). BD vs SA Live split 2026-11-24 19:00 into Live1 (Willow proxy 540p), Live2 (Willow direct 540p), Live3 (Ayna tvsen7) per user. 2026-11-24 19:13 audit: 248/257 live, removed 7 dead (Kids TV revived on recheck) (Deepto TV, Eurosport, Colors Bangla, Jalsha Movies, Dangal 2, B4U Kadak, Bharat Samachar); BD vs SA Live3 Ayna-blocked in sandbox but kept (plays in exe). 2026-11-24 20:01 rslivego.pages.dev sources (Tapmad/Sports/AynaOTT/Bangladesh playlists): 163 candidates live-verified sequentially, 51 new added (STAR SPORTS 1 HD, STAR SPORTS 2 HD, STAR SPORTS SELECT 1 HD, STAR SPORTS SELECT 2 HD, STAR SPORTS 3, SONY SPORTS TEN 1 HD, SONY SPORTS TEN 2 HD, SONY SPORTS TEN 3 HD, SONY SPORTS TEN 5 HD, EUROSPORT HD, TEN CRICKET, CRICBUZZ, WILLOW 2, SKY SPORTS CRICKET, TNT SPORTS 3 HD, BEIN SPORTS 1 HD, BEIN SPORTS 3 HD, BEIN SPORTS ARABIC HD, BEIN SPORTS EXTRA HD, UNITE8 SPORTS 1 HD, SONY MAX HD, &PICTURES HD, STAR MOVIES HD, SONY YAY, POGO, NICK BANGLA, DISCOVERY BANGLA, Deepto TV, Iqra Bangla, MADANI TV, Bharat Samachar, CNN, DW News, Khushboo, Network 10, B4U Kadak, Dangal 2, Discovery Turbo, Nat Geo TV, TLC HD, Deen TV, Discover Pikstan, Hum TV, Islam TV, Azan TV, BTL TV (Netherlands), Ekushey TV, Jalsha Movies, Matribhumi TV, NAN TV, Probashi TV News); 10 duplicates skipped; 80 dead excluded; 20 Ayna tvsen7 links unverified (not added); Tapmad live matches all 403 dead. 2026-11-24 23:52 teleghor.online /api/events: 8 live matches added as Live Events (Server 1 plain m3u8, HTTP 200 + #EXTM3U verified): Galatasaray vs Aston Villa Live, Bodo Glimt vs LASK Linz Live, CLB Al Ahli vs Al Qadisiya Live, Al Seeb vs CLB AI Shorta Live, Zenit vs CLB Krylya Sovetov Live, Besiktas Basketball vs Paris Basketball Live, Sao Đỏ Beograd vs Virtus Pallacanestro Bologna Live, Al-Nassr vs CLB Al Sadd Live. 2026-11-25 00:37 live-event check: removed 3 ended teleghor matches (Shabab Al Ahli 1-5 Al Qadisiya FT, Al Seeb 2-0 Al Shorta FT, Zenit vs Krylya Sovetov — kicked off 22:30 Dhaka, finished by 00:37, no longer in teleghor /api/events LIVE list); 5 teleghor LIVE matches kept and re-verified HTTP 200 + #EXTM3U; BD vs SA Live1/2/3 kept (2nd Test Day 3 starts Nov 25, Willow TV links verified/kept per Ayna rule); pordax top-5 all stale/ended, nothing added. 2026-11-25 02:37 live-event check: removed ended Galatasaray vs Aston Villa and Al-Nassr vs Al Sadd (URL dead); renamed 3 reused streams to the matches now live on them (Chapecoense vs Palmeiras, Valencia vs Panathinaikos, Barcelona vs Fenerbahce); added 6 Champions League live matches from teleghor (Arsenal vs Dortmund, Man City vs Napoli, Real Madrid vs PSV, Como vs AEK, Feyenoord vs Porto, Slovan Bratislava vs Real Betis), all Server 1 URLs verified HTTP 200 + #EXTM3U. BD vs SA Test (Day 3 resumes today) kept. Pordax top matches stale (AUS v ENG 2nd T20I ended, Newcastle v Kashiwa ended) - nothing added from pordax. 2026-11-25 06:37 live-event check: removed CLB Chapecoense SC vs Palmeiras Live (ended, gone from teleghor API); added CLB Millonarios vs Bucaramanga Live and Purdue vs DePaul Live (teleghor Server 1, HTTP 200 + #EXTM3U verified); BD vs SA Live1/2/3 kept (2nd Test Day 3 resumes today, SA 494/7 lead 403 at stumps Day 2); pordax UCL top-7 all ended (UEFA finals confirmed) - none added. 2026-11-25 08:01 daily audit: checked all 317 URLs one-by-one (306 LIVE, 1 AYNA-BLOCKED kept, 9 DEAD, 1x 503 no-revive). Removed 10: Millonarios vs Bucaramanga Live + Purdue vs DePaul Live (both ended), TheQ, Republic TV Bharat, Bharat Samachar, B4U Kadak (Ayna 404), FOX Sports (404), BEIN SPORTS 3 HD (200 empty body), Kids TV (503 too_many_per_one_media, still 503 after 5 min), Dangal Ayna URL only (akamaized server kept). Added 2 live events from teleghor Server 1 (Washington Wizards vs Boston Celtics, America de Cali vs Deportivo Cali, both HTTP 200 + #EXTM3U). Added 3 new channels (Madani Channel Bangla, Independent TV, Deshe Bideshe) + 4 alt servers (Sangeet Bangla, Ekushey TV, DW News, G Series Drama), all live-verified. BD vs SA Live1/2/3 kept (2nd Test Day 3, SA 494/7 lead 403). Pordax UCL top-7 + Sony/Mrgify UCL links all ended - none added; ireentv.pages.dev returns 200 without #EXTM3U - excluded; Toffee links token-gated - excluded; willowtv.page.gd behind JS/AES cookie challenge - not fetchable via curl.",
  "channels": [
   {
-   "name": "CLB Millonarios vs Bucaramanga Live",
+   "name": "Washington Wizards vs Boston Celtics Live",
    "group": "Live Event",
-   "logo": "https://img.cltvap.cc/football/team/88bf2a10fe7e8d3f9a21b73f3f77fcde.png!w80",
-   "url": "https://live05.wecile.app/live/82054853.m3u8"
+   "logo": "https://img.cltvap.cc/basketball/team/ac18ecfecac3af349477383866cf8ef5.png!w80",
+   "url": "https://live05.wecile.app/live/87379114.m3u8"
   },
   {
-   "name": "Purdue vs DePaul Live",
+   "name": "CLB America de Cali vs Deportivo Cali Live",
    "group": "Live Event",
-   "logo": "https://img.cltvap.cc/basketball/team/931cc93830e14a18b426934f0714946b.png!w80",
-   "url": "https://live05.wecile.app/live/56998120.m3u8"
+   "logo": "https://img.cltvap.cc/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png!w80",
+   "url": "https://live05.wecile.app/live/99121525.m3u8"
   },
   {
    "name": "BD vs SA Live1",
@@ -104,6 +104,12 @@
    "url": "https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8"
   },
   {
+   "name": "Deshe Bideshe",
+   "group": "Bangla",
+   "logo": "https://pbs.twimg.com/profile_images/739539785304281088/zMwNO936_400x400.jpg",
+   "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8"
+  },
+  {
    "name": "Ekattor TV",
    "group": "Bangla",
    "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ekattor-tv.png",
@@ -128,10 +134,22 @@
    "url": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8"
   },
   {
+   "name": "Independent TV",
+   "group": "News",
+   "logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/330px-Independent_Television_Logo.svg.png",
+   "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/tracks-v1a1/mono.ts.m3u8"
+  },
+  {
    "name": "Maasranga TV",
    "group": "Bangla",
    "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/maasranga-tv.png",
    "url": "https://tvsen6.aynaott.com/maasrangatv/index.m3u8"
+  },
+  {
+   "name": "Madani Channel Bangla",
+   "group": "Bangla",
+   "logo": "https://i.imgur.com/vIJTVia.png",
+   "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
   },
   {
    "name": "Mohona TV",
@@ -276,6 +294,12 @@
    "group": "Bangla",
    "logo": "https://i.postimg.cc/wx4t1dDc/images-(1).jpg",
    "url": "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/tracks-v1a1/mono.m3u8"
+  },
+  {
+   "name": "Sangeet Bangla",
+   "group": "Bangla",
+   "logo": "https://i.postimg.cc/wx4t1dDc/images-(1).jpg",
+   "url": "https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8"
   },
   {
    "name": "Weather SPY",
@@ -452,6 +476,12 @@
    "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
   },
   {
+   "name": "G Series Drama",
+   "group": "Entertainment",
+   "logo": "https://imglink.cc/cdn/1_dUKmt1Oe.png",
+   "url": "https://vods2.aynaott.com/gseriesDrama/index.m3u8"
+  },
+  {
    "name": "Hindi Classic 24",
    "group": "Movies",
    "logo": "https://imglink.cc/cdn/cScI5tEUjV.png",
@@ -624,12 +654,6 @@
    "group": "Cartoon",
    "logo": "https://i.imgur.com/UEg6mJd.jpg",
    "url": "https://cc-szrmqvu8zkg16.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-szrmqvu8zkg16/greengold/stream/grngld/playlist.m3u8"
-  },
-  {
-   "name": "Kids TV",
-   "group": "Cartoon",
-   "logo": "",
-   "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8"
   },
   {
    "name": "Moonbug Kids",
@@ -812,12 +836,6 @@
    "url": "https://tvsen6.aynaott.com/tbs/index.m3u8"
   },
   {
-   "name": "TheQ",
-   "group": "Entertainment",
-   "logo": "",
-   "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8"
-  },
-  {
    "name": "YTV",
    "group": "Entertainment",
    "logo": "",
@@ -876,12 +894,6 @@
    "group": "Movies",
    "logo": "",
    "url": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8"
-  },
-  {
-   "name": "Dangal",
-   "group": "Movies",
-   "logo": "",
-   "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8"
   },
   {
    "name": "EPIX TV",
@@ -1226,12 +1238,6 @@
    "url": "https://tvsen3.aynaott.com/GPHeknR5/index.m3u8"
   },
   {
-   "name": "Republic TV Bharat",
-   "group": "News",
-   "logo": "",
-   "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8"
-  },
-  {
    "name": "Sadhna Prime News",
    "group": "News",
    "logo": "",
@@ -1314,12 +1320,6 @@
    "group": "Sports",
    "logo": "",
    "url": "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8"
-  },
-  {
-   "name": "FOX Sports",
-   "group": "Sports",
-   "logo": "",
-   "url": "http://45.5.118.152:8000/play/a08x/index.m3u8"
   },
   {
    "name": "Fox Sports 1",
@@ -1610,12 +1610,6 @@
    "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/30.m3u8"
   },
   {
-   "name": "BEIN SPORTS 3 HD",
-   "group": "Sports",
-   "logo": "https://i.postimg.cc/ZnPc9X15/BEIN-SPORTS-3.png",
-   "url": "http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/32.m3u8"
-  },
-  {
    "name": "BEIN SPORTS ARABIC HD",
    "group": "Sports",
    "logo": "https://i.postimg.cc/QCqQN1TJ/BEIN-SPORTS-ARABIC.png",
@@ -1694,12 +1688,6 @@
    "url": "https://tvsen3.aynaott.com/z24qLsqV/index.m3u8"
   },
   {
-   "name": "Bharat Samachar",
-   "group": "News",
-   "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_d52623f16135dea6bd76f7bdacd4b886_playmist_bharat_samachar_400x400.jpg",
-   "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8"
-  },
-  {
    "name": "CNN",
    "group": "News",
    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_3ce5ce236141274767c8ee8148b88a5d_playmist_cnn_400x400.jpg",
@@ -1712,6 +1700,12 @@
    "url": "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8"
   },
   {
+   "name": "DW News",
+   "group": "News",
+   "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_e9cbcb0f33668b33e4b5dd06143aa1c6_playmist_dw400x400.jpg",
+   "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
+  },
+  {
    "name": "Khushboo",
    "group": "Indian Bangla",
    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_1544964341f4ed337430057b9634b1ad_playmist_khushboo_400x400.jpg",
@@ -1722,12 +1716,6 @@
    "group": "Indian Bangla",
    "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_35e8912e73d3759eb0f9e21a815d1a80_playmist_network_10_400x400.jpg",
    "url": "https://tvsen6.aynaott.com/3Cb2WLFz/index.m3u8"
-  },
-  {
-   "name": "B4U Kadak",
-   "group": "Indian",
-   "logo": "https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_4398175b0b608f28ed92652c90450a2f_playmist_b4u_music_400x400.jpg",
-   "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
   },
   {
    "name": "Dangal 2",
@@ -1842,6 +1830,12 @@
    "group": "News",
    "logo": "https://i.imgur.com/lRpkGHj.png",
    "url": "https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8"
+  },
+  {
+   "name": "Ekushey TV",
+   "group": "News",
+   "logo": "https://i.imgur.com/lRpkGHj.png",
+   "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8"
   },
   {
    "name": "9X Jhakaas",
