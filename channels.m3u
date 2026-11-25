@@ -1,8 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/04230721124ae33d7fb527413b54106f.png!w80" group-title="Live Event",Melbourne Victory vs Thể Công - Viettel Live
-https://live05.wecile.app/live/14830711.m3u8
-
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/fefa11f94d0efff34a0f98ee4440a34b.png!w80" group-title="Live Event",Giravanz Kitakyushu vs Kanazawa Live
+https://live05.wecile.app/live/18812304.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/basketball/team/0d1160c94e4741bebc26b0ae59731b7d.png!w80" group-title="Live Event",Kansas State vs Gonzaga Live
 https://live05.wecile.app/live/90865415.m3u8
@@ -12,9 +11,6 @@ https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.clo
 
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png" group-title="Live Event",BD vs SA Live2
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/tv-logo/tv-logos@main/countries/united-states/willow-us.png" group-title="Live Event",BD vs SA Live3
-https://tvsen7.aynaott.com/rEBp38Ax/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
@@ -67,9 +63,6 @@ https://tvsen5.aynaott.com/SyQuXz8sC3TB/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/global-tv-1080p-5ffc043912.png" group-title="Bangla",Global TV
 https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/c1/Independent_Television_Logo.svg/330px-Independent_Television_Logo.svg.png" group-title="News",Independent TV
-https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/tracks-v1a1/mono.ts.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/maasranga-tv.png" group-title="Bangla",Maasranga TV
 https://tvsen6.aynaott.com/maasrangatv/index.m3u8
 
@@ -114,9 +107,6 @@ https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/somoy-tv.png" group-title="News",Somoy TV
 https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/a-sports-65a3e1d8fd.png" group-title="Sports",A Sports
-https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/dd-sports-fb997548.png" group-title="Sports",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
@@ -233,8 +223,7 @@ https://5dd3981940faa.streamlock.net:443/thikanatv/thikanatv/playlist.m3u8
 http://27.124.71.27/Sun_Bangla/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://imglink.cc/cdn/1_dUKmt1Oe.png" group-title="Entertainment",G Series Drama
-https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
-
+https://vods2.aynaott.com/gseriesDrama/index.m3u8
 #EXTINF:-1 tvg-logo="https://imglink.cc/cdn/cScI5tEUjV.png" group-title="Movies",Hindi Classic 24
 https://vods2.aynaott.com/hindimovies/index.m3u8
 
@@ -252,9 +241,6 @@ https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XfqV4B56/png-transparent-mr-bean-illustration-youtube-coloring-book-character-cartoon-mr-bean-television-chil.png" group-title="Cartoon",Mr Bean Animated
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/48br-Lpr61.png" group-title="Cartoon",Cartoon Network
-https://tvsen5.aynaott.com/cartoonnetwork/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://imglink.cc/cdn/eEZmseF3Tb.jpg" group-title="Documentary",Adventure Earth
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
