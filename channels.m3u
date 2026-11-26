@@ -1,32 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Crystal Palace vs Real Sociedad Live" tvg-logo="https://img.cltvap.cc/football/team/42396d18444156e640c37476c2b41b93.png!w80" group-title="Live Event",Crystal Palace vs Real Sociedad Live
-https://live05.wecile.app/live/33982309.m3u8
-#EXTINF:-1 tvg-name="Juventus F.C. vs Omonia Live" tvg-logo="https://img.cltvap.cc/football/team/dc0e43b95c6676c54415bac168472aa4.png!w80" group-title="Live Event",Juventus F.C. vs Omonia Live
-https://live05.wecile.app/live/02456966.m3u8
-#EXTINF:-1 tvg-name="Sunderland vs Jagiellonia Bialystok Live" tvg-logo="https://img.cltvap.cc/football/team/957bdc50c307e2a9b526b34b3792da1a.png!w80" group-title="Live Event",Sunderland vs Jagiellonia Bialystok Live
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-name="Olympique Lyonnais vs Lillestrom Live" tvg-logo="https://img.cltvap.cc/football/team/92fb3cf79ea2ba919b94b04668e13491.png!w80" group-title="Live Event",Olympique Lyonnais vs Lillestrom Live
-https://live05.wecile.app/live/07428422.m3u8
-#EXTINF:-1 tvg-name="TSG 1899 Hoffenheim vs Sturm Graz Live" tvg-logo="https://img.cltvap.cc/football/team/72ab7862a610b350aef7650ec0e06e06.png!w80" group-title="Live Event",TSG 1899 Hoffenheim vs Sturm Graz Live
-https://live05.wecile.app/live/78905744.m3u8
-#EXTINF:-1 tvg-name="Borac Banja Luka vs Atalanta B.C. Live" tvg-logo="https://img.cltvap.cc/football/team/538d312c2512ebda3129f105db04e5e5.png!w80" group-title="Live Event",Borac Banja Luka vs Atalanta B.C. Live
-https://live05.wecile.app/live/18812304.m3u8
-#EXTINF:-1 tvg-name="Liban vs Nhật Bản Live" tvg-logo="https://img.cltvap.cc/basketball/team/01fbdbd570011d3ff9420955163f2cbf.jpg!w80" group-title="Live Event",Liban vs Nhật Bản Live
-https://live05.wecile.app/live/19919577.m3u8
-#EXTINF:-1 tvg-name="Braga vs CLB KuPs Live" tvg-logo="https://img.cltvap.cc/football/team/1fe75f826dab40e6e89cbe961c7e9116.png!w80" group-title="Live Event",Braga vs CLB KuPs Live
-https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-name="Ferencvarosi TC vs Celje Live" tvg-logo="https://img.cltvap.cc/football/team/202e45f30a94193466ba2ae8a96e7685.png!w80" group-title="Live Event",Ferencvarosi TC vs Celje Live
-https://live05.wecile.app/live/99121525.m3u8
-#EXTINF:-1 tvg-name="Sparta vs AZ Alkmaar Live" tvg-logo="https://img.cltvap.cc/football/team/5b8479ebddd13feeef3165a1393aad19.png!w80" group-title="Live Event",Sparta vs AZ Alkmaar Live
-https://live05.wecile.app/live/16226575.m3u8
-#EXTINF:-1 tvg-name="Torreense vs Celtic Live" tvg-logo="https://img.cltvap.cc/football/team/3555977b288a6b8b02f876b0e5a1da53.png!w80" group-title="Live Event",Torreense vs Celtic Live
-https://live05.wecile.app/live/97885009.m3u8
-#EXTINF:-1 tvg-name="CLB NEC Nijmegen vs Stade Rennais Live" tvg-logo="https://img.cltvap.cc/football/team/d22de494a1ff648e90892c249c5aed12.png!w80" group-title="Live Event",CLB NEC Nijmegen vs Stade Rennais Live
-https://live05.wecile.app/live/07808742.m3u8
-#EXTINF:-1 tvg-name="KAA Gent vs Câu lạc bộ Bóng đá Sao Đỏ Live" tvg-logo="https://img.cltvap.cc/football/team/59e9be1ed056bdc0025f6064316485fe.png!w80" group-title="Live Event",KAA Gent vs Câu lạc bộ Bóng đá Sao Đỏ Live
-https://live05.wecile.app/live/14707124.m3u8
-#EXTINF:-1 tvg-name="SC Freiburg vs Twente Live" tvg-logo="https://img.cltvap.cc/football/team/6508946c9a5fe22a8784b905b25e8c79.png!w80" group-title="Live Event",SC Freiburg vs Twente Live
-https://live05.wecile.app/live/88508431.m3u8
+#EXTINF:-1 tvg-name="UCLA vs St. Marys (CA) Live" tvg-logo="https://img.cltvap.cc/basketball/team/22914374027227fe756f0efab86a7b53.png!w80" group-title="Live Event",UCLA vs St. Marys (CA) Live
+https://live05.wecile.app/live/90865415.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
