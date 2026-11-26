@@ -1,8 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Pusamania Borneo FC vs Persita Live" tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png!w80" group-title="Live Event",Pusamania Borneo FC vs Persita Live
-https://live05.wecile.app/live/14830711.m3u8
-#EXTINF:-1 tvg-name="Thailand vs Malaysia Live" tvg-logo="https://img.cltvap.cc/basketball/team/3eb1aaf546afafbaedf7aa8298be7c9c.png!w80" group-title="Live Event",Thailand vs Malaysia Live
-https://live05.wecile.app/live/56998120.m3u8
+#EXTINF:-1 tvg-name="Kuching City FC vs Phnom Penh Crown Live" tvg-logo="https://img.cltvap.cc/football/team/81f5727743f8759ae7a99b8d7f2557e3.png!w80" group-title="Live Event",Kuching City FC vs Phnom Penh Crown Live
+https://live05.wecile.app/live/78905744.m3u8
+#EXTINF:-1 tvg-name="CLB Tampines vs Shanghai Shenhua Live" tvg-logo="https://img.cltvap.cc/football/team/23dc72567ad2999491dfe56b50f7df62.png!w80" group-title="Live Event",CLB Tampines vs Shanghai Shenhua Live
+https://live05.wecile.app/live/14707124.m3u8
+#EXTINF:-1 tvg-name="Gangwon vs CLB Kitchee Live" tvg-logo="https://img.cltvap.cc/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png!w80" group-title="Live Event",Gangwon vs CLB Kitchee Live
+https://live05.wecile.app/live/87547578.m3u8
+#EXTINF:-1 tvg-name="Karvan Evlakh vs Mingachevir Live" tvg-logo="https://img.cltvap.cc/football/team/aa6d9f240dd67791dd86ff4de072d846.png!w80" group-title="Live Event",Karvan Evlakh vs Mingachevir Live
+https://live05.wecile.app/live/49572724.m3u8
+#EXTINF:-1 tvg-name="Câu lạc bộ thể thao Baku vs Shahdagh Qusar Live" tvg-logo="https://img.cltvap.cc/football/team/afd11580da1ff691b68dcb564d9d10e5.png!w80" group-title="Live Event",Câu lạc bộ thể thao Baku vs Shahdagh Qusar Live
+https://live05.wecile.app/live/75915087.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
