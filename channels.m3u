@@ -1,6 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/basketball/team/3e6a86278c2671cad16cd7f26c08db8b.png!w80" group-title="Live Event",Fiji vs Hong Kong Live
-https://live05.wecile.app/live/19919577.m3u8
+#EXTINF:-1 tvg-name="Pusamania Borneo FC vs Persita Live" tvg-logo="https://img.cltvap.cc/football/team/5a0893c2c8fbdbbf734c07c71c8025b4.png!w80" group-title="Live Event",Pusamania Borneo FC vs Persita Live
+https://live05.wecile.app/live/14830711.m3u8
+#EXTINF:-1 tvg-name="Thailand vs Malaysia Live" tvg-logo="https://img.cltvap.cc/basketball/team/3eb1aaf546afafbaedf7aa8298be7c9c.png!w80" group-title="Live Event",Thailand vs Malaysia Live
+https://live05.wecile.app/live/56998120.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
