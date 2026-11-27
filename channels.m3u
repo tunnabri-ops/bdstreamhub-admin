@@ -1,6 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Jordan vs New Zealand Live" tvg-logo="https://img.cltvap.cc/basketball/team/ad269016d377a139581206b40ad4a941.png!w80" group-title="Live Event",Jordan vs New Zealand Live
-https://live05.wecile.app/live/56998120.m3u8
+#EXTINF:-1 tvg-name="Huế vs Đồng Tâm Long An Live" tvg-logo="https://img.cltvap.cc/football/team/d183acf4e1500de34a9bb72ff77f2ecc.jpg!w80" group-title="Live Event",Huế vs Đồng Tâm Long An Live
+https://live05.wecile.app/live/49572724.m3u8
+#EXTINF:-1 tvg-name="CLB Broadmeadow Magic vs CLB Queensland Lions SC Live" tvg-logo="https://img.cltvap.cc/football/team/4f0ff310b253f34bfd414c5b2502082c.png!w80" group-title="Live Event",CLB Broadmeadow Magic vs CLB Queensland Lions SC Live
+https://live05.wecile.app/live/33860426.m3u8
+#EXTINF:-1 tvg-name="Indonesia vs Thái Lan Live" tvg-logo="https://img.cltvap.cc/basketball/team/8d4aca15bee632dc0709e24152c7f529.png!w80" group-title="Live Event",Indonesia vs Thái Lan Live
+https://live05.wecile.app/live/87379114.m3u8
+#EXTINF:-1 tvg-name="UC Capitals Women vs Melbourne Boomers Nữ Live" tvg-logo="https://img.cltvap.cc/basketball/team/0bf8d00e9a4df141d819d0be02302d42.png!w80" group-title="Live Event",UC Capitals Women vs Melbourne Boomers Nữ Live
+https://live05.wecile.app/live/89756030.m3u8
+#EXTINF:-1 tvg-name="CLB Macarthur vs Clb Melbourne city Live" tvg-logo="https://img.cltvap.cc/football/team/d7c8728e57f2aec43b46422d3d37ab9e.png!w80" group-title="Live Event",CLB Macarthur vs Clb Melbourne city Live
+https://live05.wecile.app/live/87547578.m3u8
+#EXTINF:-1 tvg-name="Iran vs Australia Live" tvg-logo="https://img.cltvap.cc/basketball/team/77418e1cfd63306bf63717d76c23e910.png!w80" group-title="Live Event",Iran vs Australia Live
+https://live05.wecile.app/live/82054853.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
