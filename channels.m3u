@@ -1,26 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Al Kholood vs Al Khaleej Live" tvg-logo="https://img.cltvap.cc/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png!w80" group-title="Live Event",Al Kholood vs Al Khaleej Live
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-name="Syrian vs Philippines Live" tvg-logo="https://img.cltvap.cc/basketball/team/d5313f24c755a8f9d6963dd1d532b118.png!w80" group-title="Live Event",Syrian vs Philippines Live
-https://live05.wecile.app/live/19919577.m3u8
-#EXTINF:-1 tvg-name="Uthai Thani vs Sisaket United Live" tvg-logo="https://img.cltvap.cc/football/team/0bebca8b04365cbdf36703122a59189c.png!w80" group-title="Live Event",Uthai Thani vs Sisaket United Live
-https://live05.wecile.app/live/49572724.m3u8
+#EXTINF:-1 tvg-name="Al Qadisiya vs CLB Al Fayha Live" tvg-logo="https://img.cltvap.cc/football/team/bc74439d19c8bbaa17c57406b120b86d.png!w80" group-title="Live Event",Al Qadisiya vs CLB Al Fayha Live
+https://live05.wecile.app/live/02456966.m3u8
+#EXTINF:-1 tvg-name="Costa Rica U17 vs Brazil U17 Live" tvg-logo="https://img.cltvap.cc/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png!w80" group-title="Live Event",Costa Rica U17 vs Brazil U17 Live
+https://live05.wecile.app/live/33982309.m3u8
+#EXTINF:-1 tvg-name="Colombia U17 vs Srbija C.Gora U17 Live" tvg-logo="https://img.cltvap.cc/football/team/13844d01d85a85bed47338e396b2aa3d.png!w80" group-title="Live Event",Colombia U17 vs Srbija C.Gora U17 Live
+https://live05.wecile.app/live/75915087.m3u8
+#EXTINF:-1 tvg-name="Inter Kashi vs Churchill Brothers Live" tvg-logo="https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80" group-title="Live Event",Inter Kashi vs Churchill Brothers Live
+https://live05.wecile.app/live/87547578.m3u8
 #EXTINF:-1 tvg-name="Honduras U17 vs Nhật Bản U17 Live" tvg-logo="https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png!w80" group-title="Live Event",Honduras U17 vs Nhật Bản U17 Live
 https://live05.wecile.app/live/07428422.m3u8
 #EXTINF:-1 tvg-name="Al Sailiya vs CLB Al Gharafa Live" tvg-logo="https://img.cltvap.cc/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png!w80" group-title="Live Event",Al Sailiya vs CLB Al Gharafa Live
 https://live05.wecile.app/live/16226575.m3u8
-#EXTINF:-1 tvg-name="Sông Lam Nghệ An vs Phu Dong Ninh Binh Live" tvg-logo="https://img.cltvap.cc/football/team/7f95b001711ce3978d498602e1d2c9fd.png!w80" group-title="Live Event",Sông Lam Nghệ An vs Phu Dong Ninh Binh Live
-https://live05.wecile.app/live/75748097.m3u8
-#EXTINF:-1 tvg-name="Thai Nguyen vs Hung Yen Live" tvg-logo="https://img.cltvap.cc/football/team/5bc47b0c1409c6deb22abf1bf86f1ef0.png!w80" group-title="Live Event",Thai Nguyen vs Hung Yen Live
-https://live05.wecile.app/live/07808742.m3u8
-#EXTINF:-1 tvg-name="PVF CAND vs Đại học Văn Hiến Live" tvg-logo="https://img.cltvap.cc/football/team/16b802abec41440eb4996fc68f16125b.png!w80" group-title="Live Event",PVF CAND vs Đại học Văn Hiến Live
-https://live05.wecile.app/live/88508431.m3u8
-#EXTINF:-1 tvg-name="Gia Dinh vs Lam Dong Live" tvg-logo="https://img.cltvap.cc/football/team/a3fa1f2bd7dbd79b0c531417b56647d6.png!w80" group-title="Live Event",Gia Dinh vs Lam Dong Live
-https://live05.wecile.app/live/33860426.m3u8
-#EXTINF:-1 tvg-name="Nam Định vs Cong An Ha Noi FC Live" tvg-logo="https://img.cltvap.cc/football/team/bc5db4dd418cb566a4475649876b55bb.png!w80" group-title="Live Event",Nam Định vs Cong An Ha Noi FC Live
-https://live05.wecile.app/live/90865415.m3u8
-#EXTINF:-1 tvg-name="Hong Kong Trung quốc vs Mông Cổ Live" tvg-logo="https://img.cltvap.cc/basketball/team/8c41b09a722e18d468b422bcaa46e133.png!w80" group-title="Live Event",Hong Kong Trung quốc vs Mông Cổ Live
-https://live05.wecile.app/live/89756030.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
