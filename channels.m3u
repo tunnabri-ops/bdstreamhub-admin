@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CLB Sao Paulo vs Remo Belem (PA) Live" tvg-logo="https://img.cltvap.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80" group-title="Live Event",CLB Sao Paulo vs Remo Belem (PA) Live
-https://live05.wecile.app/live/59444581.m3u8
 #EXTINF:-1 tvg-name="LSU vs Southern Methodist Live" tvg-logo="https://img.cltvap.cc/basketball/team/dca2c70b3ed5afb137fc366112f1a05c.png!w80" group-title="Live Event",LSU vs Southern Methodist Live
 https://live05.wecile.app/live/82054853.m3u8
 #EXTINF:-1 tvg-name="Pachuca vs Chivas Guadalajara Live" tvg-logo="https://img.cltvap.cc/football/team/cff411edceeeb7c1677d9db65ce47164.png!w80" group-title="Live Event",Pachuca vs Chivas Guadalajara Live
@@ -509,8 +507,6 @@ http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/30.m3u8
 http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/33.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS EXTRA HD" tvg-logo="https://i.postimg.cc/NF23WG2g/Be-IN-Sports-XTRA.png" group-title="Sports",BEIN SPORTS EXTRA HD
 http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/34.m3u8
-#EXTINF:-1 tvg-name="UNITE8 SPORTS 1 HD" tvg-logo="https://i.postimg.cc/nhVXfN2N/Unite8-Sports-1.png" group-title="Sports",UNITE8 SPORTS 1 HD
-http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/35.m3u8
 #EXTINF:-1 tvg-name="SONY MAX HD" tvg-logo="https://i.postimg.cc/vZmZNfHd/Sony-Max-HD.jpg" group-title="Indian",SONY MAX HD
 http://live.ftpbdlive.com:8080/live/FTPBD-LIVETV/FTPBD-2026/50.m3u8
 #EXTINF:-1 tvg-name="&PICTURES HD" tvg-logo="https://i.postimg.cc/ncSJM5px/And-Picture.jpg" group-title="Indian",&PICTURES HD
@@ -883,3 +879,15 @@ https://stream.ottlive.co.in/9plusnews/index.m3u8
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-name="BEK TV News" tvg-logo="https://s3.aynaott.com/storage/4eaf83274ee309489b535852b1780ad2" group-title="News",BEK TV News
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="ESPN 2" tvg-logo="" group-title="Sports",ESPN 2
+http://191.97.49.82:8001/play/a00m/index.m3u8
+#EXTINF:-1 tvg-name="National Geographic" tvg-logo="" group-title="Documentary",National Geographic
+http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
+#EXTINF:-1 tvg-name="Quran TV" tvg-logo="" group-title="Religious",Quran TV
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
+#EXTINF:-1 tvg-name="Al Sunnah TV" tvg-logo="" group-title="Religious",Al Sunnah TV
+http://m.live.net.sa:1935/live/sunnah/playlist.m3u8
+#EXTINF:-1 tvg-name="B4U Music" tvg-logo="" group-title="Music",B4U Music
+https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-name="T Sports 7" tvg-logo="" group-title="Sports",T Sports 7
+https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8
