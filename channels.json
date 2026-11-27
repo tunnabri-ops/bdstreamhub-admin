@@ -1,8 +1,20 @@
 [
  {
-  "name": "UCLA vs St. Marys (CA) Live",
-  "url": "https://live05.wecile.app/live/90865415.m3u8",
-  "logo": "https://img.cltvap.cc/basketball/team/22914374027227fe756f0efab86a7b53.png!w80",
+  "name": "CLB Sao Paulo vs Remo Belem (PA) Live",
+  "url": "https://live05.wecile.app/live/59444581.m3u8",
+  "logo": "https://img.cltvap.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80",
+  "group": "Live Event"
+ },
+ {
+  "name": "LSU vs Southern Methodist Live",
+  "url": "https://live05.wecile.app/live/82054853.m3u8",
+  "logo": "https://img.cltvap.cc/basketball/team/dca2c70b3ed5afb137fc366112f1a05c.png!w80",
+  "group": "Live Event"
+ },
+ {
+  "name": "Pachuca vs Chivas Guadalajara Live",
+  "url": "https://live05.wecile.app/live/33860426.m3u8",
+  "logo": "https://img.cltvap.cc/football/team/cff411edceeeb7c1677d9db65ce47164.png!w80",
   "group": "Live Event"
  },
  {

@@ -1,6 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="UCLA vs St. Marys (CA) Live" tvg-logo="https://img.cltvap.cc/basketball/team/22914374027227fe756f0efab86a7b53.png!w80" group-title="Live Event",UCLA vs St. Marys (CA) Live
-https://live05.wecile.app/live/90865415.m3u8
+#EXTINF:-1 tvg-name="CLB Sao Paulo vs Remo Belem (PA) Live" tvg-logo="https://img.cltvap.cc/football/team/31f5171de0e1404fdebcef19cd7cd409.png!w80" group-title="Live Event",CLB Sao Paulo vs Remo Belem (PA) Live
+https://live05.wecile.app/live/59444581.m3u8
+#EXTINF:-1 tvg-name="LSU vs Southern Methodist Live" tvg-logo="https://img.cltvap.cc/basketball/team/dca2c70b3ed5afb137fc366112f1a05c.png!w80" group-title="Live Event",LSU vs Southern Methodist Live
+https://live05.wecile.app/live/82054853.m3u8
+#EXTINF:-1 tvg-name="Pachuca vs Chivas Guadalajara Live" tvg-logo="https://img.cltvap.cc/football/team/cff411edceeeb7c1677d9db65ce47164.png!w80" group-title="Live Event",Pachuca vs Chivas Guadalajara Live
+https://live05.wecile.app/live/33860426.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
