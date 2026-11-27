@@ -1,16 +1,24 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Al Qadisiya vs CLB Al Fayha Live" tvg-logo="https://img.cltvap.cc/football/team/bc74439d19c8bbaa17c57406b120b86d.png!w80" group-title="Live Event",Al Qadisiya vs CLB Al Fayha Live
-https://live05.wecile.app/live/02456966.m3u8
-#EXTINF:-1 tvg-name="Costa Rica U17 vs Brazil U17 Live" tvg-logo="https://img.cltvap.cc/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png!w80" group-title="Live Event",Costa Rica U17 vs Brazil U17 Live
-https://live05.wecile.app/live/33982309.m3u8
-#EXTINF:-1 tvg-name="Colombia U17 vs Srbija C.Gora U17 Live" tvg-logo="https://img.cltvap.cc/football/team/13844d01d85a85bed47338e396b2aa3d.png!w80" group-title="Live Event",Colombia U17 vs Srbija C.Gora U17 Live
-https://live05.wecile.app/live/75915087.m3u8
-#EXTINF:-1 tvg-name="Inter Kashi vs Churchill Brothers Live" tvg-logo="https://img.cltvap.cc/football/team/ef47a299ed88735ebf75770b11597127.png!w80" group-title="Live Event",Inter Kashi vs Churchill Brothers Live
-https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-name="Honduras U17 vs Nhật Bản U17 Live" tvg-logo="https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png!w80" group-title="Live Event",Honduras U17 vs Nhật Bản U17 Live
-https://live05.wecile.app/live/07428422.m3u8
-#EXTINF:-1 tvg-name="Al Sailiya vs CLB Al Gharafa Live" tvg-logo="https://img.cltvap.cc/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png!w80" group-title="Live Event",Al Sailiya vs CLB Al Gharafa Live
+#EXTINF:-1 tvg-name="IMT Novi Beograd vs CLB Macva Sabac Live" tvg-logo="https://img.cltvap.cc/football/team/9c1777c5f9d29d3c8ce03960caa52a64.png!w80" group-title="Live Event",IMT Novi Beograd vs CLB Macva Sabac Live
 https://live05.wecile.app/live/16226575.m3u8
+#EXTINF:-1 tvg-name="Universitaea Cluj vs Sepsi Live" tvg-logo="https://img.cltvap.cc/football/team/74c37787bcf9656e1372913981f69859.png!w80" group-title="Live Event",Universitaea Cluj vs Sepsi Live
+https://live05.wecile.app/live/99121525.m3u8
+#EXTINF:-1 tvg-name="Montenegro U17 vs Chilê U17 Live" tvg-logo="https://img.cltvap.cc/football/team/9866b8a83d35abdd89ed76d565d71f75.png!w80" group-title="Live Event",Montenegro U17 vs Chilê U17 Live
+https://live05.wecile.app/live/75748097.m3u8
+#EXTINF:-1 tvg-name="Algeria U17 vs Cộng hòa Dominican U17 Live" tvg-logo="https://img.cltvap.cc/football/team/c0f3a9cc8c0672341632498cdfb3fff9.png!w80" group-title="Live Event",Algeria U17 vs Cộng hòa Dominican U17 Live
+https://live05.wecile.app/live/97885009.m3u8
+#EXTINF:-1 tvg-name="Lusail city fc vs Al Arabi Live" tvg-logo="https://img.cltvap.cc/football/team/ddb080ae05cb88519794aff16a819ff1.png!w80" group-title="Live Event",Lusail city fc vs Al Arabi Live
+https://live05.wecile.app/live/18812304.m3u8
+#EXTINF:-1 tvg-name="Venezuela U17 vs Mexico U17 Live" tvg-logo="https://img.cltvap.cc/football/team/dfa3dc7c4d56d73f925a782bc6063a4b.png!w80" group-title="Live Event",Venezuela U17 vs Mexico U17 Live
+https://live05.wecile.app/live/07808742.m3u8
+#EXTINF:-1 tvg-name="Romania U17 vs Cameroon U17 Live" tvg-logo="https://img.cltvap.cc/football/team/1f8d87e1161af68b81bace188a1ec624.png!w80" group-title="Live Event",Romania U17 vs Cameroon U17 Live
+https://live05.wecile.app/live/88508431.m3u8
+#EXTINF:-1 tvg-name="Lokomotiv 1929 Sofia vs Slavia Sofia Live" tvg-logo="https://img.cltvap.cc/football/team/eddf8d0f309490d5e64ad445895eedb1.png!w80" group-title="Live Event",Lokomotiv 1929 Sofia vs Slavia Sofia Live
+https://live05.wecile.app/live/14707124.m3u8
+#EXTINF:-1 tvg-name="Alanyaspor vs Konyaspor Live" tvg-logo="https://img.cltvap.cc/football/team/0688ed133dadf5f09bb94c8414ec5565.png!w80" group-title="Live Event",Alanyaspor vs Konyaspor Live
+https://live05.wecile.app/live/08552895.m3u8
+#EXTINF:-1 tvg-name="Rizespor vs Kasimpasa Live" tvg-logo="https://img.cltvap.cc/football/team/be9dd7715b88e662d366df132c630f72.png!w80" group-title="Live Event",Rizespor vs Kasimpasa Live
+https://live05.wecile.app/live/33982309.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
