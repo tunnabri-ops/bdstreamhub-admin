@@ -1,16 +1,20 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Al-Ittihad FC vs NEOM Sports Club Live" tvg-logo="https://img.cltvap.cc/football/team/dea986d20115216c05d1a45ba9a6162e.png!w80" group-title="Live Event",Al-Ittihad FC vs NEOM Sports Club Live
-https://live05.wecile.app/live/75748097.m3u8
-#EXTINF:-1 tvg-name="VfL Bochum vs Darmstadt Live" tvg-logo="https://img.cltvap.cc/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png!w80" group-title="Live Event",VfL Bochum vs Darmstadt Live
-https://live05.wecile.app/live/87547578.m3u8
-#EXTINF:-1 tvg-name="Heidenheimer vs Nurnberg Live" tvg-logo="https://img.cltvap.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png!w80" group-title="Live Event",Heidenheimer vs Nurnberg Live
-https://live05.wecile.app/live/99121525.m3u8
+#EXTINF:-1 tvg-name="Nottingham Forest vs Chelsea Live" tvg-logo="https://img.cltvap.cc/football/team/62572999d107f777efa4aeb907443527.png!w80" group-title="Live Event",Nottingham Forest vs Chelsea Live
+https://live05.wecile.app/live/08552895.m3u8
+#EXTINF:-1 tvg-name="Levante vs Racing Santander Live" tvg-logo="https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80" group-title="Live Event",Levante vs Racing Santander Live
+https://live05.wecile.app/live/88508431.m3u8
+#EXTINF:-1 tvg-name="Werder Bremen vs Borussia Monchengladbach Live" tvg-logo="https://img.cltvap.cc/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png!w80" group-title="Live Event",Werder Bremen vs Borussia Monchengladbach Live
+https://live05.wecile.app/live/07808742.m3u8
+#EXTINF:-1 tvg-name="Venezia vs Bologna Live" tvg-logo="https://img.cltvap.cc/football/team/3e724dc0e6fffd01a630b65af348fab6.png!w80" group-title="Live Event",Venezia vs Bologna Live
+https://live05.wecile.app/live/07428422.m3u8
+#EXTINF:-1 tvg-name="Brest vs Paris FC Live" tvg-logo="https://img.cltvap.cc/football/team/bb7e6346a3860008e4ff266ba3b655e8.png!w80" group-title="Live Event",Brest vs Paris FC Live
+https://live05.wecile.app/live/16226575.m3u8
+#EXTINF:-1 tvg-name="Southampton vs Middlesbrough Live" tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="Live Event",Southampton vs Middlesbrough Live
+https://live05.wecile.app/live/14707124.m3u8
+#EXTINF:-1 tvg-name="Maritimo vs Nacional Live" tvg-logo="https://img.cltvap.cc/football/team/a5caa04e895b6b33ba8e816522795c30.png!w80" group-title="Live Event",Maritimo vs Nacional Live
+https://live05.wecile.app/live/18812304.m3u8
 #EXTINF:-1 tvg-name="Groningen vs Willem II Live" tvg-logo="https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png!w80" group-title="Live Event",Groningen vs Willem II Live
 https://live05.wecile.app/live/97885009.m3u8
-#EXTINF:-1 tvg-name="Alanyaspor vs Konyaspor Live" tvg-logo="https://img.cltvap.cc/football/team/0688ed133dadf5f09bb94c8414ec5565.png!w80" group-title="Live Event",Alanyaspor vs Konyaspor Live
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-name="Rizespor vs Kasimpasa Live" tvg-logo="https://img.cltvap.cc/football/team/be9dd7715b88e662d366df132c630f72.png!w80" group-title="Live Event",Rizespor vs Kasimpasa Live
-https://live05.wecile.app/live/33982309.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
