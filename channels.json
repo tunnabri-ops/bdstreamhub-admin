@@ -1,8 +1,32 @@
 [
   {
-    "name": "Mil-Mugan FK vs Safa Baku Live",
-    "url": "https://live05.wecile.app/live/59444581.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/22fa18548e3651bad37de2fb9fcad603.png!w80",
+    "name": "Al Kholood vs Al Khaleej Live",
+    "url": "https://live05.wecile.app/live/08552895.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/068aa9b10aa4d47ab3a8fdbe8b716518.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Syrian vs Philippines Live",
+    "url": "https://live05.wecile.app/live/19919577.m3u8",
+    "logo": "https://img.cltvap.cc/basketball/team/d5313f24c755a8f9d6963dd1d532b118.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Uthai Thani vs Sisaket United Live",
+    "url": "https://live05.wecile.app/live/49572724.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/0bebca8b04365cbdf36703122a59189c.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Honduras U17 vs Nhật Bản U17 Live",
+    "url": "https://live05.wecile.app/live/07428422.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/570197ce24c78651ca363a146213ba08.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Al Sailiya vs CLB Al Gharafa Live",
+    "url": "https://live05.wecile.app/live/16226575.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/6b3994cecbf1c9c1fc4e1eb2ee01a6cf.png!w80",
     "group": "Live Event"
   },
   {
@@ -39,12 +63,6 @@
     "name": "Hong Kong Trung quốc vs Mông Cổ Live",
     "url": "https://live05.wecile.app/live/89756030.m3u8",
     "logo": "https://img.cltvap.cc/basketball/team/8c41b09a722e18d468b422bcaa46e133.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "Iran vs Australia Live",
-    "url": "https://live05.wecile.app/live/82054853.m3u8",
-    "logo": "https://img.cltvap.cc/basketball/team/77418e1cfd63306bf63717d76c23e910.png!w80",
     "group": "Live Event"
   },
   {
