@@ -1,20 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Nottingham Forest vs Chelsea Live" tvg-logo="https://img.cltvap.cc/football/team/62572999d107f777efa4aeb907443527.png!w80" group-title="Live Event",Nottingham Forest vs Chelsea Live
-https://live05.wecile.app/live/08552895.m3u8
-#EXTINF:-1 tvg-name="Levante vs Racing Santander Live" tvg-logo="https://img.cltvap.cc/football/team/13e2038bd23a38ce32a3eb259c8bf7d8.png!w80" group-title="Live Event",Levante vs Racing Santander Live
-https://live05.wecile.app/live/88508431.m3u8
-#EXTINF:-1 tvg-name="Werder Bremen vs Borussia Monchengladbach Live" tvg-logo="https://img.cltvap.cc/football/team/82e3b03a1df3d7ae3d38e9fdd24fe622.png!w80" group-title="Live Event",Werder Bremen vs Borussia Monchengladbach Live
-https://live05.wecile.app/live/07808742.m3u8
-#EXTINF:-1 tvg-name="Venezia vs Bologna Live" tvg-logo="https://img.cltvap.cc/football/team/3e724dc0e6fffd01a630b65af348fab6.png!w80" group-title="Live Event",Venezia vs Bologna Live
-https://live05.wecile.app/live/07428422.m3u8
-#EXTINF:-1 tvg-name="Brest vs Paris FC Live" tvg-logo="https://img.cltvap.cc/football/team/bb7e6346a3860008e4ff266ba3b655e8.png!w80" group-title="Live Event",Brest vs Paris FC Live
-https://live05.wecile.app/live/16226575.m3u8
-#EXTINF:-1 tvg-name="Southampton vs Middlesbrough Live" tvg-logo="https://img.cltvap.cc/football/team/4623d3fa1cda20d1f289dce9dc803527.png!w80" group-title="Live Event",Southampton vs Middlesbrough Live
-https://live05.wecile.app/live/14707124.m3u8
-#EXTINF:-1 tvg-name="Maritimo vs Nacional Live" tvg-logo="https://img.cltvap.cc/football/team/a5caa04e895b6b33ba8e816522795c30.png!w80" group-title="Live Event",Maritimo vs Nacional Live
-https://live05.wecile.app/live/18812304.m3u8
-#EXTINF:-1 tvg-name="Groningen vs Willem II Live" tvg-logo="https://img.cltvap.cc/football/team/98a1646fa8a5b6f02b0505cf3857f6d5.png!w80" group-title="Live Event",Groningen vs Willem II Live
-https://live05.wecile.app/live/97885009.m3u8
+#EXTINF:-1 tvg-name="Kansas vs Villanova Live" tvg-logo="https://img.cltvap.cc/basketball/team/e37875b00a57abec6aaeff5b98f89971.png!w80" group-title="Live Event",Kansas vs Villanova Live
+https://live05.wecile.app/live/56998120.m3u8
+#EXTINF:-1 tvg-name="Fluminense RJ vs CLB Cruzeiro Live" tvg-logo="https://img.cltvap.cc/football/team/a6bce9adfac7903426bed2b253991a18.png!w80" group-title="Live Event",Fluminense RJ vs CLB Cruzeiro Live
+https://live05.wecile.app/live/59444581.m3u8
+#EXTINF:-1 tvg-name="Brasil vs Hoa Kỳ Live" tvg-logo="https://img.cltvap.cc/basketball/team/2bc5dd83d6d15f000d58b22ec80d5ff7.png!w80" group-title="Live Event",Brasil vs Hoa Kỳ Live
+https://live05.wecile.app/live/90865415.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/asian-tv.png" group-title="Bangla",Asian TV
