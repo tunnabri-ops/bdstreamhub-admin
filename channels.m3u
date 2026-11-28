@@ -1,34 +1,37 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0459eff25f56626beed63c97e0e67dcf.png!w80" group-title="Live Event",CLB Al Hazm vs Al-Nassr Live
-https://live05.wecile.app/live/90865415.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png!w80" group-title="Live Event",Hà Nội vs Hồng Lĩnh Hà Tĩnh Live
-https://live05.wecile.app/live/88508431.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5b8a3bb282d72348c18e6338dd8d284c.png!w80" group-title="Live Event",SG Dynamo Dresden vs St. Pauli Live
-https://live05.wecile.app/live/16226575.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a285cb29d36e8d0e6fb35def1fbf442c.png!w80" group-title="Live Event",Holstein Kiel vs Kaiserslautern Live
-https://live05.wecile.app/live/07808742.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1f74843bf2ffff474d23d387fa240102.png!w80" group-title="Live Event",Hertha BSC vs CLB KSC Live
-https://live05.wecile.app/live/99121525.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/8447d677d0ec4da28a9e8a8fddbbc53e.png!w80" group-title="Live Event",Lincoln vs Wolverhampton Wanderers Live
-https://live05.wecile.app/live/97885009.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d4c8121b5f738cfaf222779a43e7495d.png!w80" group-title="Live Event",CLB Samsunspor vs Genclerbirligi Live
-https://live05.wecile.app/live/14707124.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/81f8f9e258e6b73bc522bab06730720a.png!w80" group-title="Live Event",Hamburger SV vs FC Bayern München Live
+https://live05.wecile.app/live/07428422.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/018e260ad68bdad741c61e3171c4c608.png!w80" group-title="Live Event",Real Betis Balompié vs Rayo Vallecano Live
 https://live05.wecile.app/live/75915087.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/40b7d679de613aedfb80bcaba85fa7e0.png!w80" group-title="Live Event",Bac Ninh vs SHB Đà Nẵng Live
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/93c278d5d8d1d5e2d390ff686359963d.png!w80" group-title="Live Event",Frosinone vs CLB Parma Live
+https://live05.wecile.app/live/99121525.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d4c8121b5f738cfaf222779a43e7495d.png!w80" group-title="Live Event",CLB Samsunspor vs Genclerbirligi Live
+https://live05.wecile.app/live/14707124.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/887b7663a0d47031528921d9972ae3a6.png!w80" group-title="Live Event",1. FC Köln vs CLB Elversberg Live
 https://live05.wecile.app/live/87547578.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/99dd3ac7267c0e3870d9ad785e6f9661.png!w80" group-title="Live Event",Thành phố Hồ Chí Minh vs Hoàng Anh Gia Lai Live
-https://live05.wecile.app/live/07428422.m3u8
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7c8c3c50966c793eba910e18659759a1.png!w80" group-title="Live Event",Paderborn vs FC Schalke 04 Live
+https://live05.wecile.app/live/16226575.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/903089d338485f6c68fbc5da690a0628.png!w80" group-title="Live Event",1. FSV Mainz 05 vs 1. FC Union Berlin Live
+https://live05.wecile.app/live/88508431.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1d7680c902207ad6cc3a40bc5125bdf5.png!w80" group-title="Live Event",CLB Leeds United vs CLB Coventry City Live
+https://live05.wecile.app/live/08552895.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d39ce586fd7278342dde33b3090b3f75.png!w80" group-title="Live Event",Manchester United vs Brentford Live
+https://live05.wecile.app/live/33982309.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/701e0713c180fa36266b425447d2f9c0.png!w80" group-title="Live Event",Queens Park Rangers vs CLB Sheffield United Live
+https://live05.wecile.app/live/19919577.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9c7c68ee0cad47be69a9d57e43261484.png!w80" group-title="Live Event",Malaga vs Athletic Bilbao Live
+https://live05.wecile.app/live/07808742.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/images/ananda-tv.png" group-title="Bangla",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
