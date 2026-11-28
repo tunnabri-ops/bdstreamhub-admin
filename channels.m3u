@@ -1,5 +1,29 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/0459eff25f56626beed63c97e0e67dcf.png!w80" group-title="Live Event",CLB Al Hazm vs Al-Nassr Live
+https://live05.wecile.app/live/90865415.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png!w80" group-title="Live Event",Hà Nội vs Hồng Lĩnh Hà Tĩnh Live
+https://live05.wecile.app/live/88508431.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5b8a3bb282d72348c18e6338dd8d284c.png!w80" group-title="Live Event",SG Dynamo Dresden vs St. Pauli Live
+https://live05.wecile.app/live/16226575.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/a285cb29d36e8d0e6fb35def1fbf442c.png!w80" group-title="Live Event",Holstein Kiel vs Kaiserslautern Live
+https://live05.wecile.app/live/07808742.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/1f74843bf2ffff474d23d387fa240102.png!w80" group-title="Live Event",Hertha BSC vs CLB KSC Live
+https://live05.wecile.app/live/99121525.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/8447d677d0ec4da28a9e8a8fddbbc53e.png!w80" group-title="Live Event",Lincoln vs Wolverhampton Wanderers Live
+https://live05.wecile.app/live/97885009.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d4c8121b5f738cfaf222779a43e7495d.png!w80" group-title="Live Event",CLB Samsunspor vs Genclerbirligi Live
+https://live05.wecile.app/live/14707124.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/018e260ad68bdad741c61e3171c4c608.png!w80" group-title="Live Event",Real Betis Balompié vs Rayo Vallecano Live
+https://live05.wecile.app/live/75915087.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/40b7d679de613aedfb80bcaba85fa7e0.png!w80" group-title="Live Event",Bac Ninh vs SHB Đà Nẵng Live
 https://live05.wecile.app/live/87547578.m3u8
 
