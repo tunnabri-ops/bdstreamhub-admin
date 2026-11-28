@@ -1,44 +1,8 @@
 [
   {
-    "name": "CLB Al Hazm vs Al-Nassr Live",
-    "url": "https://live05.wecile.app/live/90865415.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/0459eff25f56626beed63c97e0e67dcf.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "Hà Nội vs Hồng Lĩnh Hà Tĩnh Live",
-    "url": "https://live05.wecile.app/live/88508431.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/7146224d9ef4e5d2eb712b4e71bdfaa4.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "SG Dynamo Dresden vs St. Pauli Live",
-    "url": "https://live05.wecile.app/live/16226575.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/5b8a3bb282d72348c18e6338dd8d284c.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "Holstein Kiel vs Kaiserslautern Live",
-    "url": "https://live05.wecile.app/live/07808742.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/a285cb29d36e8d0e6fb35def1fbf442c.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "Hertha BSC vs CLB KSC Live",
-    "url": "https://live05.wecile.app/live/99121525.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/1f74843bf2ffff474d23d387fa240102.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "Lincoln vs Wolverhampton Wanderers Live",
-    "url": "https://live05.wecile.app/live/97885009.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/8447d677d0ec4da28a9e8a8fddbbc53e.png!w80",
-    "group": "Live Event"
-  },
-  {
-    "name": "CLB Samsunspor vs Genclerbirligi Live",
-    "url": "https://live05.wecile.app/live/14707124.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/d4c8121b5f738cfaf222779a43e7495d.png!w80",
+    "name": "Hamburger SV vs FC Bayern München Live",
+    "url": "https://live05.wecile.app/live/07428422.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/81f8f9e258e6b73bc522bab06730720a.png!w80",
     "group": "Live Event"
   },
   {
@@ -48,15 +12,57 @@
     "group": "Live Event"
   },
   {
-    "name": "Bac Ninh vs SHB Đà Nẵng Live",
-    "url": "https://live05.wecile.app/live/87547578.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/40b7d679de613aedfb80bcaba85fa7e0.png!w80",
+    "name": "Frosinone vs CLB Parma Live",
+    "url": "https://live05.wecile.app/live/99121525.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/93c278d5d8d1d5e2d390ff686359963d.png!w80",
     "group": "Live Event"
   },
   {
-    "name": "Thành phố Hồ Chí Minh vs Hoàng Anh Gia Lai Live",
-    "url": "https://live05.wecile.app/live/07428422.m3u8",
-    "logo": "https://img.cltvap.cc/football/team/99dd3ac7267c0e3870d9ad785e6f9661.png!w80",
+    "name": "CLB Samsunspor vs Genclerbirligi Live",
+    "url": "https://live05.wecile.app/live/14707124.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/d4c8121b5f738cfaf222779a43e7495d.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "1. FC Köln vs CLB Elversberg Live",
+    "url": "https://live05.wecile.app/live/87547578.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/887b7663a0d47031528921d9972ae3a6.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Paderborn vs FC Schalke 04 Live",
+    "url": "https://live05.wecile.app/live/16226575.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/7c8c3c50966c793eba910e18659759a1.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "1. FSV Mainz 05 vs 1. FC Union Berlin Live",
+    "url": "https://live05.wecile.app/live/88508431.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/903089d338485f6c68fbc5da690a0628.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "CLB Leeds United vs CLB Coventry City Live",
+    "url": "https://live05.wecile.app/live/08552895.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/1d7680c902207ad6cc3a40bc5125bdf5.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Manchester United vs Brentford Live",
+    "url": "https://live05.wecile.app/live/33982309.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/d39ce586fd7278342dde33b3090b3f75.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Queens Park Rangers vs CLB Sheffield United Live",
+    "url": "https://live05.wecile.app/live/19919577.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/701e0713c180fa36266b425447d2f9c0.png!w80",
+    "group": "Live Event"
+  },
+  {
+    "name": "Malaga vs Athletic Bilbao Live",
+    "url": "https://live05.wecile.app/live/07808742.m3u8",
+    "logo": "https://img.cltvap.cc/football/team/9c7c68ee0cad47be69a9d57e43261484.png!w80",
     "group": "Live Event"
   },
   {
